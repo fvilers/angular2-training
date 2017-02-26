@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { HeroService } from './hero.service';
 import { AppComponent } from './app.component';
@@ -22,7 +23,8 @@ import { HeroCardComponent } from './hero-card/hero-card.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule
   ],
   providers: [
     HeroService
