@@ -1,3 +1,11 @@
-<p>
-  hero-detail works!
-</p>
+<article *ngIf="hero">
+  <h1>{{hero.name}}</h1>
+  <h2>{{hero.title}}</h2>
+  <p>
+    {{hero.description}}
+  </p>
+</article>
+
+<div>
+  <a md-button [routerLink]="['/heroes']">Back to the Heroes</a>
+</div>
