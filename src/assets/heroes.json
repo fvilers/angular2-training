@@ -1,188 +1,250 @@
 [
   {
-    "name": "Lúcio"
+    "name": "Lúcio",
+    "title": "Freedom Fighting DJ"
   },
   {
-    "name": "Valeera"
+    "name": "Valeera",
+    "title": "Shadow of the Uncrowned"
   },
   {
-    "name": "Zul'jin"
+    "name": "Zul'jin",
+    "title": "Warlord of the Amani"
   },
   {
-    "name": "Ragnaros"
+    "name": "Ragnaros",
+    "title": "The Firelord"
   },
   {
-    "name": "Varian"
+    "name": "Varian",
+    "title": "High King of the Alliance"
   },
   {
-    "name": "Samuro"
+    "name": "Samuro",
+    "title": "The Blademaster"
   },
   {
-    "name": "Zarya"
+    "name": "Zarya",
+    "title": "Defender of Russia"
   },
   {
-    "name": "Alarak"
+    "name": "Alarak",
+    "title": "Highlord of the Tal'darim"
   },
   {
-    "name": "Auriel"
+    "name": "Auriel",
+    "title": "Archange of Hope"
   },
   {
-    "name": "Gul'dan"
+    "name": "Gul'dan",
+    "title": "Darkness Incarnate"
   },
   {
-    "name": "Medivh"
+    "name": "Medivh",
+    "title": "The Last Guardian"
   },
   {
-    "name": "Chromie"
+    "name": "Chromie",
+    "title": "Keeper of Time"
   },
   {
-    "name": "Tracer"
+    "name": "Tracer",
+    "title": "Agent of Overwatch"
   },
   {
-    "name": "Dehaka"
+    "name": "Dehaka",
+    "title": "Primal Pack Leader"
   },
   {
-    "name": "Xul"
+    "name": "Xul",
+    "title": "Cryptic Necromancer"
   },
   {
-    "name": "Li-Ming"
+    "name": "Li-Ming",
+    "title": "Rebellious Wizard"
   },
   {
-    "name": "Greymane"
+    "name": "Greymane",
+    "title": "Lord of the Worgen"
   },
   {
-    "name": "Lunara"
+    "name": "Lunara",
+    "title": "First Daughter of Cenarius"
   },
   {
-    "name": "Cho'gall"
+    "name": "Cho'gall",
+    "title": "Twilight's Hammer Chieftain"
   },
   {
-    "name": "Artanis"
+    "name": "Artanis",
+    "title": "Hierarch of the Daelaam"
   },
   {
-    "name": "Lt. Morales"
+    "name": "Lt. Morales",
+    "title": "Combat Medic"
   },
   {
-    "name": "Rexxar"
+    "name": "Rexxar",
+    "title": "Champion of the Horde"
   },
   {
-    "name": "Kharazim"
+    "name": "Kharazim",
+    "title": "Veradani Monk"
   },
   {
-    "name": "Leoric"
+    "name": "Leoric",
+    "title": "The Skeleton King"
   },
   {
-    "name": "The Butcher"
+    "name": "The Butcher",
+    "title": "Flesh Carver"
   },
   {
-    "name": "Johanna"
+    "name": "Johanna",
+    "title": "Crusader of Zakarum"
   },
   {
-    "name": "Kael'thas"
+    "name": "Kael'thas",
+    "title": "The Sun King"
   },
   {
-    "name": "Sylvanas"
+    "name": "Sylvanas",
+    "title": "The Banshee Queen"
   },
   {
-    "name": "The Lost Vikings"
+    "name": "The Lost Vikings",
+    "title": "Triple Trouble"
   },
   {
-    "name": "Thrall"
+    "name": "Thrall",
+    "title": "Warchief of the Horde"
   },
   {
-    "name": "Jaina"
+    "name": "Jaina",
+    "title": "Archmage"
   },
   {
-    "name": "Anub'arak"
+    "name": "Anub'arak",
+    "title": "Traitor King"
   },
   {
-    "name": "Azmodan"
+    "name": "Azmodan",
+    "title": "Lord of Sin"
   },
   {
-    "name": "Chen"
+    "name": "Chen",
+    "title": "Legendary Brewmaster"
   },
   {
-    "name": "Rehgar"
+    "name": "Rehgar",
+    "title": "Shaman of the Earthen Ring"
   },
   {
-    "name": "Zagara"
+    "name": "Zagara",
+    "title": "Broodmother of the Swarm"
   },
   {
-    "name": "Murky"
+    "name": "Murky",
+    "title": "Babu Murloc"
   },
   {
-    "name": "Brightwing"
+    "name": "Brightwing",
+    "title": "Faerie Dragon"
   },
   {
-    "name": "Li Li"
+    "name": "Li Li",
+    "title": "World Wandeler"
   },
   {
-    "name": "Tychus"
+    "name": "Tychus",
+    "title": "Notorious Outlaw"
   },
   {
-    "name": "Abathur"
+    "name": "Abathur",
+    "title": "Evolution Master"
   },
   {
-    "name": "Arthas"
+    "name": "Arthas",
+    "title": "The Lich King"
   },
   {
-    "name": "Diablo"
+    "name": "Diablo",
+    "title": "Lord of Terror"
   },
   {
-    "name": "E.T.C."
+    "name": "E.T.C.",
+    "title": "Rock God"
   },
   {
-    "name": "Falstad"
+    "name": "Falstad",
+    "title": "Wildhammer Thane"
   },
   {
-    "name": "Gazlowe"
+    "name": "Gazlowe",
+    "title": "Boss of Ratchet"
   },
   {
-    "name": "Illidan"
+    "name": "Illidan",
+    "title": "The Betrayer"
   },
   {
-    "name": "Kerrigan"
+    "name": "Kerrigan",
+    "title": "Queen of Blades"
   },
   {
-    "name": "Malfurion"
+    "name": "Malfurion",
+    "title": "Archdruid"
   },
   {
-    "name": "Muradin"
+    "name": "Muradin",
+    "title": "Mountain King"
   },
   {
-    "name": "Nazeebo"
+    "name": "Nazeebo",
+    "title": "Heretic Witch Doctor"
   },
   {
-    "name": "Nova"
+    "name": "Nova",
+    "title": "Dominion Ghost"
   },
   {
-    "name": "Raynor"
+    "name": "Raynor",
+    "title": "Renegade Commander"
   },
   {
-    "name": "Sgt. Hammer"
+    "name": "Sgt. Hammer",
+    "title": "Siege Tank Operator"
   },
   {
-    "name": "Sonya"
+    "name": "Sonya",
+    "title": "Wandering Barbarian"
   },
   {
-    "name": "Stitches"
+    "name": "Stitches",
+    "title": "Terror of Darkshire"
   },
   {
-    "name": "Tassadar"
+    "name": "Tassadar",
+    "title": "Savior of the Temple"
   },
   {
-    "name": "Tyrael"
+    "name": "Tyrael",
+    "title": "Archangel of Justice"
   },
   {
-    "name": "Tyrande"
+    "name": "Tyrande",
+    "title": "High Priestress of Elune"
   },
   {
-    "name": "Uther"
+    "name": "Uther",
+    "title": "The Lightbringer"
   },
   {
-    "name": "Valla"
+    "name": "Valla",
+    "title": "Demon Hunter"
   },
   {
-    "name": "Zeratul"
+    "name": "Zeratul",
+    "title": "Dark Prelate"
   }
 ]
