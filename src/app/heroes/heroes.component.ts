@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { Subject } from 'rxjs/Subject'
 import 'rxjs/add/observable/of';
@@ -15,10 +15,16 @@ import { Hero } from '../hero';
 })
 export class HeroesComponent implements OnInit, AfterViewInit {
   heroes: Observable<Hero[]>;
+  canMoveToTop = false;
   private filter = new Subject<HeroFilter>();
 
   constructor(private heroService: HeroService) {
   }
+
+  @HostListener('window:scroll', ['$event']) 
+    trackPosition(event) {
+      this.canMoveToTop =  document.body.scrollTop > 0;
+    }
 
   ngOnInit() {
     this.heroes = this.filter
@@ -38,5 +44,10 @@ export class HeroesComponent implements OnInit, AfterViewInit {
 
   filterHeroes (filter: HeroFilter) {
     this.filter.next(filter);
+  }
+
+  moveToTop() {
+    // TODO: inject as a service
+    window.scrollTo(0, 0);
   }
 }

@@ -9,3 +9,9 @@
 <div>
   {{(heroes | async)?.length}} hero{{(heroes | async)?.length < 2 ? '' : 'es'}} found.
 </div>
+
+<span class="move-up-action" [style.display]="canMoveToTop ? 'inline-block' : 'none'">
+  <button md-fab mdTooltip="Move to top" mdTooltipPosition="left" (click)="moveToTop()">
+    <md-icon>keyboard_arrow_up</md-icon>
+  </button>
+</span>
