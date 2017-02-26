@@ -3,9 +3,8 @@ export class Hero {
   title: String;
   universe: HeroUniverse;
   description: String;
-  role: HeroRole
-  strengths: String[];
-  weaknesses: String[];
+  roles: HeroRole[];
+  image: String;
 }
 
 export enum HeroRole {

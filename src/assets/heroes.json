@@ -1,250 +1,498 @@
 [
   {
     "name": "Lúcio",
-    "title": "Freedom Fighting DJ"
+    "title": "Freedom Fighting DJ",
+    "universe": 4,
+    "description": "From the streets of Rio to the clubs on King's Row, Lúcio's beats bring the party to life, and drive the people to action. Now he's on tour in the Nexus, ready to break it down, and to continue fighting for what's right.",
+    "roles": [2],
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/lucio_freedomFightingDJLucio.jpg"
   },
   {
     "name": "Valeera",
-    "title": "Shadow of the Uncrowned"
+    "title": "Shadow of the Uncrowned",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Zul'jin",
-    "title": "Warlord of the Amani"
+    "title": "Warlord of the Amani",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Ragnaros",
-    "title": "The Firelord"
+    "title": "The Firelord",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Varian",
-    "title": "High King of the Alliance"
+    "title": "High King of the Alliance",
+    "universe": 4,
+    "description": "",
+    "roles": [1, 0],
+    "image": ""
   },
   {
     "name": "Samuro",
-    "title": "The Blademaster"
+    "title": "The Blademaster",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Zarya",
-    "title": "Defender of Russia"
+    "title": "Defender of Russia",
+    "universe": 4,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Alarak",
-    "title": "Highlord of the Tal'darim"
+    "title": "Highlord of the Tal'darim",
+    "universe": 1,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Auriel",
-    "title": "Archange of Hope"
+    "title": "Archange of Hope",
+    "universe": 2,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Gul'dan",
-    "title": "Darkness Incarnate"
+    "title": "Darkness Incarnate",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Medivh",
-    "title": "The Last Guardian"
+    "title": "The Last Guardian",
+    "universe": 0,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Chromie",
-    "title": "Keeper of Time"
+    "title": "Keeper of Time",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Tracer",
-    "title": "Agent of Overwatch"
+    "title": "Agent of Overwatch",
+    "universe": 4,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Dehaka",
-    "title": "Primal Pack Leader"
+    "title": "Primal Pack Leader",
+    "universe": 1,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Xul",
-    "title": "Cryptic Necromancer"
+    "title": "Cryptic Necromancer",
+    "universe": 2,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Li-Ming",
-    "title": "Rebellious Wizard"
+    "title": "Rebellious Wizard",
+    "universe": 2,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Greymane",
-    "title": "Lord of the Worgen"
+    "title": "Lord of the Worgen",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Lunara",
-    "title": "First Daughter of Cenarius"
+    "title": "First Daughter of Cenarius",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Cho'gall",
-    "title": "Twilight's Hammer Chieftain"
+    "title": "Twilight's Hammer Chieftain",
+    "universe": 0,
+    "description": "",
+    "roles": [1, 0],
+    "image": ""
   },
   {
     "name": "Artanis",
-    "title": "Hierarch of the Daelaam"
+    "title": "Hierarch of the Daelaam",
+    "universe": 1,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Lt. Morales",
-    "title": "Combat Medic"
+    "title": "Combat Medic",
+    "universe": 1,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Rexxar",
-    "title": "Champion of the Horde"
+    "title": "Champion of the Horde",
+    "universe": 0,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Kharazim",
-    "title": "Veradani Monk"
+    "title": "Veradani Monk",
+    "universe": 2,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Leoric",
-    "title": "The Skeleton King"
+    "title": "The Skeleton King",
+    "universe": 2,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "The Butcher",
-    "title": "Flesh Carver"
+    "title": "Flesh Carver",
+    "universe": 2,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Johanna",
-    "title": "Crusader of Zakarum"
+    "title": "Crusader of Zakarum",
+    "universe": 2,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Kael'thas",
-    "title": "The Sun King"
+    "title": "The Sun King",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Sylvanas",
-    "title": "The Banshee Queen"
+    "title": "The Banshee Queen",
+    "universe": 0,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "The Lost Vikings",
-    "title": "Triple Trouble"
+    "title": "Triple Trouble",
+    "universe": 3,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Thrall",
-    "title": "Warchief of the Horde"
+    "title": "Warchief of the Horde",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Jaina",
-    "title": "Archmage"
+    "title": "Archmage",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Anub'arak",
-    "title": "Traitor King"
+    "title": "Traitor King",
+    "universe": 0,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Azmodan",
-    "title": "Lord of Sin"
+    "title": "Lord of Sin",
+    "universe": 2,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Chen",
-    "title": "Legendary Brewmaster"
+    "title": "Legendary Brewmaster",
+    "universe": 0,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Rehgar",
-    "title": "Shaman of the Earthen Ring"
+    "title": "Shaman of the Earthen Ring",
+    "universe": 0,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Zagara",
-    "title": "Broodmother of the Swarm"
+    "title": "Broodmother of the Swarm",
+    "universe": 1,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Murky",
-    "title": "Babu Murloc"
+    "title": "Babu Murloc",
+    "universe": 0,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Brightwing",
-    "title": "Faerie Dragon"
+    "title": "Faerie Dragon",
+    "universe": 0,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Li Li",
-    "title": "World Wandeler"
+    "title": "World Wandeler",
+    "universe": 0,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Tychus",
-    "title": "Notorious Outlaw"
+    "title": "Notorious Outlaw",
+    "universe": 1,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Abathur",
-    "title": "Evolution Master"
+    "title": "Evolution Master",
+    "universe": 1,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Arthas",
-    "title": "The Lich King"
+    "title": "The Lich King",
+    "universe": 0,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Diablo",
-    "title": "Lord of Terror"
+    "title": "Lord of Terror",
+    "universe": 2,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "E.T.C.",
-    "title": "Rock God"
+    "title": "Rock God",
+    "universe": 0,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Falstad",
-    "title": "Wildhammer Thane"
+    "title": "Wildhammer Thane",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Gazlowe",
-    "title": "Boss of Ratchet"
+    "title": "Boss of Ratchet",
+    "universe": 0,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Illidan",
-    "title": "The Betrayer"
+    "title": "The Betrayer",
+    "universe": 0,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Kerrigan",
-    "title": "Queen of Blades"
+    "title": "Queen of Blades",
+    "universe": 1,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Malfurion",
-    "title": "Archdruid"
+    "title": "Archdruid",
+    "universe": 0,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Muradin",
-    "title": "Mountain King"
+    "title": "Mountain King",
+    "universe": 0,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Nazeebo",
-    "title": "Heretic Witch Doctor"
+    "title": "Heretic Witch Doctor",
+    "universe": 2,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Nova",
-    "title": "Dominion Ghost"
+    "title": "Dominion Ghost",
+    "universe": 1,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Raynor",
-    "title": "Renegade Commander"
+    "title": "Renegade Commander",
+    "universe": 1,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Sgt. Hammer",
-    "title": "Siege Tank Operator"
+    "title": "Siege Tank Operator",
+    "universe": 1,
+    "description": "",
+    "roles": [3],
+    "image": ""
   },
   {
     "name": "Sonya",
-    "title": "Wandering Barbarian"
+    "title": "Wandering Barbarian",
+    "universe": 2,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Stitches",
-    "title": "Terror of Darkshire"
+    "title": "Terror of Darkshire",
+    "universe": 0,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Tassadar",
-    "title": "Savior of the Temple"
+    "title": "Savior of the Temple",
+    "universe": 1,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Tyrael",
-    "title": "Archangel of Justice"
+    "title": "Archangel of Justice",
+    "universe": 2,
+    "description": "",
+    "roles": [1],
+    "image": ""
   },
   {
     "name": "Tyrande",
-    "title": "High Priestress of Elune"
+    "title": "High Priestress of Elune",
+    "universe": 0,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Uther",
-    "title": "The Lightbringer"
+    "title": "The Lightbringer",
+    "universe": 0,
+    "description": "",
+    "roles": [2],
+    "image": ""
   },
   {
     "name": "Valla",
-    "title": "Demon Hunter"
+    "title": "Demon Hunter",
+    "universe": 2,
+    "description": "",
+    "roles": [0],
+    "image": ""
   },
   {
     "name": "Zeratul",
-    "title": "Dark Prelate"
+    "title": "Dark Prelate",
+    "universe": 1,
+    "description": "",
+    "roles": [0],
+    "image": ""
   }
 ]
