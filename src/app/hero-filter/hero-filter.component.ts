@@ -8,7 +8,7 @@ import { HeroUniverse, HeroRole } from '../hero';
   styleUrls: ['./hero-filter.component.scss']
 })
 export class HeroFilterComponent implements OnInit {
-  @Output() change = new EventEmitter<HeroFilter>();
+  @Output() changed = new EventEmitter<HeroFilter>();
   universes: Number[]; 
   roles: Number[];
   filter: HeroFilter = new HeroFilter();
@@ -28,7 +28,8 @@ export class HeroFilterComponent implements OnInit {
   }
 
   notifyChange () {
-    this.change.emit(this.filter);
+    console.log("notifyChange");
+    this.changed.emit(this.filter);
   }
 }
 

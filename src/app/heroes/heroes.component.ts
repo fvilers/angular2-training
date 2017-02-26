@@ -37,6 +37,7 @@ export class HeroesComponent implements OnInit, AfterViewInit {
   }
 
   filterHeroes (filter: HeroFilter) {
+    console.log("filterHeroes", filter);
     this.filter.next(filter);
   }
 }
