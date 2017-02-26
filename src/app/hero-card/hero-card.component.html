@@ -11,4 +11,8 @@
       <md-chip *ngFor="let role of hero.roles">{{role | heroRole}}</md-chip>
     </md-chip-list>
   </md-card-content>
+
+  <md-card-actions align="end">
+    <button md-button (click)="goToDetail()">More</button>
+  </md-card-actions>
 </md-card>

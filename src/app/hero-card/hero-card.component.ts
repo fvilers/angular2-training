@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { Hero } from '../hero';
 
@@ -10,9 +11,13 @@ import { Hero } from '../hero';
 export class HeroCardComponent implements OnInit {
   @Input() hero: Hero;
 
-  constructor() {
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
+  }
+
+  goToDetail () {
+    this.router.navigate(['/heroes', this.hero.name]);
   }
 }
