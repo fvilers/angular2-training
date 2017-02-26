@@ -9,8 +9,8 @@ import { HeroUniverse, HeroRole } from '../hero';
 })
 export class HeroFilterComponent implements OnInit {
   @Output() changed = new EventEmitter<HeroFilter>();
-  universes: Number[]; 
-  roles: Number[];
+  universes: number[]; 
+  roles: number[];
   filter: HeroFilter = new HeroFilter();
 
   constructor() { }
@@ -19,12 +19,12 @@ export class HeroFilterComponent implements OnInit {
     this.universes = Object
       .keys(HeroUniverse)
       .map(key => HeroUniverse[key])
-      .filter(v => typeof v === "number") as Number[]
+      .filter(v => typeof v === "number") as number[]
 
     this.roles = Object
       .keys(HeroRole)
       .map(key => HeroRole[key])
-      .filter(v => typeof v === "number") as Number[]
+      .filter(v => typeof v === "number") as number[]
   }
 
   notifyChange () {
