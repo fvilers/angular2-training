@@ -17,6 +17,7 @@ import { HeroRolePipe } from './hero-role.pipe';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeroFilterComponent } from './hero-filter/hero-filter.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
     HeroRolePipe,
     PageNotFoundComponent,
     HeroFilterComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
