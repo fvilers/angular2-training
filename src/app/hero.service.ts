@@ -20,11 +20,18 @@ export class HeroService {
       .get(this.url)
       .map(response => {
         const heroes = response.json() as Hero[];
-        return heroes.filter(hero =>
-          (universe === undefined || hero.universe === universe)
-          && (role === undefined || hero.roles.indexOf(role) !== -1)
-          && (!terms || hero.name.match(regexp) || hero.title.match(regexp))
-        )
+
+        return heroes
+          .filter(hero =>
+            (universe === undefined || hero.universe === universe)
+            && (role === undefined || hero.roles.indexOf(role) !== -1)
+            && (!terms || hero.name.match(regexp) || hero.title.match(regexp))
+          )
+          .sort((a, b) => {
+            if (a.name < b.name) return -1;
+            if (a.name > b.name) return 1;
+            return 0;
+          })
       });
   }
 
