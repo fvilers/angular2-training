@@ -5,3 +5,7 @@
 <div class="flex-container" fxLayout="row" fxLayoutWrap="wrap" fxLayoutGap="10px">
   <app-hero-card *ngFor="let hero of heroes | async" [hero]="hero" class="flex-item"></app-hero-card>
 </div>
+
+<div>
+  {{(heroes | async)?.length}} hero{{(heroes | async)?.length < 2 ? '' : 'es'}} found.
+</div>
