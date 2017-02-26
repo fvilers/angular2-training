@@ -6,6 +6,7 @@ import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 import { FlexLayoutModule } from "@angular/flex-layout";
 
+import { AppRoutingModule } from './app-routing.module';
 import { HeroService } from './hero.service';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
@@ -13,6 +14,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroCardComponent } from './hero-card/hero-card.component';
 import { HeroUniversePipe } from './hero-universe.pipe';
 import { HeroRolePipe } from './hero-role.pipe';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,14 +23,16 @@ import { HeroRolePipe } from './hero-role.pipe';
     HeroesComponent,
     HeroCardComponent,
     HeroUniversePipe,
-    HeroRolePipe
+    HeroRolePipe,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AppRoutingModule
   ],
   providers: [
     HeroService
