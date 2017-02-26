@@ -8,6 +8,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { AppRoutingModule } from './app-routing.module';
 import { HeroService } from './hero.service';
+import { WindowService } from './window.service';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HeroesComponent } from './heroes/heroes.component';
@@ -41,7 +42,8 @@ import { AboutComponent } from './about/about.component';
     AppRoutingModule
   ],
   providers: [
-    HeroService
+    HeroService,
+    WindowService
   ],
   bootstrap: [AppComponent]
 })

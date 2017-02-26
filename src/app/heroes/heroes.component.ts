@@ -6,6 +6,7 @@ import 'rxjs/add/operator/catch';
 
 import { HeroFilter } from '../hero-filter/hero-filter.component';
 import { HeroService } from '../hero.service';
+import { WindowService } from '../window.service';
 import { Hero } from '../hero';
 
 @Component({
@@ -18,7 +19,7 @@ export class HeroesComponent implements OnInit, AfterViewInit {
   canMoveToTop = false;
   private filter = new Subject<HeroFilter>();
 
-  constructor(private heroService: HeroService) {
+  constructor(private heroService: HeroService, private windowService: WindowService) {
   }
 
   @HostListener('window:scroll', ['$event']) 
@@ -47,7 +48,6 @@ export class HeroesComponent implements OnInit, AfterViewInit {
   }
 
   moveToTop() {
-    // TODO: inject as a service
-    window.scrollTo(0, 0);
+    this.windowService.scrollTo(0, 0);
   }
 }
