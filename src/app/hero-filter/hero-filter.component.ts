@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 import { HeroUniverse, HeroRole } from '../hero';
 
@@ -8,8 +8,10 @@ import { HeroUniverse, HeroRole } from '../hero';
   styleUrls: ['./hero-filter.component.scss']
 })
 export class HeroFilterComponent implements OnInit {
+  @Output() change = new EventEmitter<HeroFilter>();
   universes: Number[]; 
-  roles: Number[]; 
+  roles: Number[];
+  filter: HeroFilter = new HeroFilter();
 
   constructor() { }
 
@@ -24,4 +26,13 @@ export class HeroFilterComponent implements OnInit {
       .map(key => HeroRole[key])
       .filter(v => typeof v === "number") as Number[]
   }
+
+  notifyChange () {
+    this.change.emit(this.filter);
+  }
+}
+
+export class HeroFilter {
+  universe: HeroUniverse;
+  role: HeroRole;
 }

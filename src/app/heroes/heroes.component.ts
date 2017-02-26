@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { HeroFilter } from '../hero-filter/hero-filter.component';
 import { HeroService } from '../hero.service';
 import { Hero } from '../hero';
 
@@ -22,5 +23,9 @@ export class HeroesComponent implements OnInit {
     return this.heroService
         .getHeroes()
         .then(heroes => this.heroes = heroes);
+  }
+
+  filterHeroes (filter: HeroFilter) {
+    console.log("filter", filter);
   }
 }
