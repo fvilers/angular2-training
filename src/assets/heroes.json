@@ -13,7 +13,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/valeera-standard_shadowOfTheUncrownedStandard.jpg"
   },
   {
     "name": "Zul'jin",
@@ -21,7 +21,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zuljin_warlordOfTheAmani.jpg"
   },
   {
     "name": "Ragnaros",
@@ -29,7 +29,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/ragnaros_theFirelord.jpg"
   },
   {
     "name": "Varian",
@@ -37,7 +37,7 @@
     "universe": 0,
     "description": "",
     "roles": [1, 0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/varian-warrior_highKingOfTheAllianceWarrior.jpg"
   },
   {
     "name": "Samuro",
@@ -45,7 +45,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/samuro_theBlademaster.jpg"
   },
   {
     "name": "Zarya",
@@ -53,7 +53,7 @@
     "universe": 4,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zarya_defenderOfRussia.jpg"
   },
   {
     "name": "Alarak",
@@ -61,7 +61,7 @@
     "universe": 1,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/alarak_highlordOfTaldarim.jpg"
   },
   {
     "name": "Auriel",
@@ -69,7 +69,7 @@
     "universe": 2,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/auriel_archangelOfHope.jpg"
   },
   {
     "name": "Gul'dan",
@@ -77,7 +77,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/guldan_darknessIncarnate.jpg"
   },
   {
     "name": "Medivh",
@@ -85,7 +85,7 @@
     "universe": 0,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/medivh_theLastGuardian.jpg"
   },
   {
     "name": "Chromie",
@@ -93,7 +93,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/chromie_keeperOfTime.jpg"
   },
   {
     "name": "Tracer",
@@ -101,7 +101,7 @@
     "universe": 4,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tracer_agentOfOverwatch.jpg"
   },
   {
     "name": "Dehaka",
@@ -109,7 +109,7 @@
     "universe": 1,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/dehaka_primalPackLeader.jpg"
   },
   {
     "name": "Xul",
@@ -117,7 +117,7 @@
     "universe": 2,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/xul_crypticNecromancer.jpg"
   },
   {
     "name": "Li-Ming",
@@ -125,7 +125,7 @@
     "universe": 2,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/li-ming_rebelliousWizard.jpg"
   },
   {
     "name": "Greymane",
@@ -133,7 +133,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/greymane-human_lordOfTheWorgenHuman.jpg"
   },
   {
     "name": "Lunara",
@@ -141,7 +141,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/lunara_firstDaughterOfCenarius.jpg"
   },
   {
     "name": "Cho'gall",
@@ -149,7 +149,7 @@
     "universe": 0,
     "description": "",
     "roles": [1, 0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/cho_twilightsHammerChieftainCho.jpg"
   },
   {
     "name": "Artanis",
@@ -157,7 +157,7 @@
     "universe": 1,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/artanis_hierarchOfTheDaelaam.jpg"
   },
   {
     "name": "Lt. Morales",
@@ -165,7 +165,7 @@
     "universe": 1,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/lt-morales_combatMedic.jpg"
   },
   {
     "name": "Rexxar",
@@ -173,7 +173,7 @@
     "universe": 0,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/rexxar_championOfTheHorde.jpg"
   },
   {
     "name": "Kharazim",
@@ -181,7 +181,7 @@
     "universe": 2,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/kharazim_veradaniMonk.jpg"
   },
   {
     "name": "Leoric",
@@ -189,7 +189,7 @@
     "universe": 2,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/leoric_theSkeletonKing.jpg"
   },
   {
     "name": "The Butcher",
@@ -197,7 +197,7 @@
     "universe": 2,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/the-butcher_fleshCarver.jpg?v=58-84"
   },
   {
     "name": "Johanna",
@@ -205,7 +205,7 @@
     "universe": 2,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/johanna_crusaderOfZakarum.jpg"
   },
   {
     "name": "Kael'thas",
@@ -213,7 +213,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/kaelthas_theSunKing.jpg"
   },
   {
     "name": "Sylvanas",
@@ -221,7 +221,7 @@
     "universe": 0,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/sylvanas_theBansheeQueen.jpg"
   },
   {
     "name": "The Lost Vikings",
@@ -229,7 +229,7 @@
     "universe": 3,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/the-lost-vikings_tripleTrouble.jpg"
   },
   {
     "name": "Thrall",
@@ -237,7 +237,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/thrall_warchiefOfTheHorde.jpg"
   },
   {
     "name": "Jaina",
@@ -245,7 +245,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/jaina_archmage.jpg"
   },
   {
     "name": "Anub'arak",
@@ -253,7 +253,7 @@
     "universe": 0,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/anubarak_traitorKing.jpg"
   },
   {
     "name": "Azmodan",
@@ -261,7 +261,7 @@
     "universe": 2,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/azmodan_lordOfSin.jpg"
   },
   {
     "name": "Chen",
@@ -269,7 +269,7 @@
     "universe": 0,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/chen_legendaryBrewmaster.jpg"
   },
   {
     "name": "Rehgar",
@@ -277,7 +277,7 @@
     "universe": 0,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/rehgar_shamanOfTheEarthenRing.jpg"
   },
   {
     "name": "Zagara",
@@ -285,7 +285,7 @@
     "universe": 1,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zagara_broodmotherOfTheSwarm.jpg"
   },
   {
     "name": "Murky",
@@ -293,7 +293,7 @@
     "universe": 0,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/murky_babyMurloc.jpg"
   },
   {
     "name": "Brightwing",
@@ -301,7 +301,7 @@
     "universe": 0,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/brightwing_faerieDragon.jpg"
   },
   {
     "name": "Li Li",
@@ -309,7 +309,7 @@
     "universe": 0,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/lili_worldWanderer.jpg"
   },
   {
     "name": "Tychus",
@@ -317,7 +317,7 @@
     "universe": 1,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tychus_notoriousOutlaw.jpg"
   },
   {
     "name": "Abathur",
@@ -325,7 +325,7 @@
     "universe": 1,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/abathur_evolutionMaster.jpg"
   },
   {
     "name": "Arthas",
@@ -333,7 +333,7 @@
     "universe": 0,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/arthas_theLichKing.jpg"
   },
   {
     "name": "Diablo",
@@ -341,7 +341,7 @@
     "universe": 2,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/diablo_lordOfTerror.jpg"
   },
   {
     "name": "E.T.C.",
@@ -349,7 +349,7 @@
     "universe": 0,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/etc_rockGod.jpg"
   },
   {
     "name": "Falstad",
@@ -357,7 +357,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/falstad_wildhammerThane.jpg"
   },
   {
     "name": "Gazlowe",
@@ -365,7 +365,7 @@
     "universe": 0,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/gazlowe_bossOfRatchet.jpg"
   },
   {
     "name": "Illidan",
@@ -373,7 +373,7 @@
     "universe": 0,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/illidan_theBetrayer.jpg"
   },
   {
     "name": "Kerrigan",
@@ -381,7 +381,7 @@
     "universe": 1,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/kerrigan_queenOfBlades.jpg"
   },
   {
     "name": "Malfurion",
@@ -389,7 +389,7 @@
     "universe": 0,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/malfurion_archdruid.jpg"
   },
   {
     "name": "Muradin",
@@ -397,7 +397,7 @@
     "universe": 0,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/muradin_mountainKing.jpg"
   },
   {
     "name": "Nazeebo",
@@ -405,7 +405,7 @@
     "universe": 2,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/nazeebo_hereticWitchDoctor.jpg"
   },
   {
     "name": "Nova",
@@ -413,7 +413,7 @@
     "universe": 1,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/nova_dominionGhost.jpg"
   },
   {
     "name": "Raynor",
@@ -421,7 +421,7 @@
     "universe": 1,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/raynor_renegadeCommander.jpg"
   },
   {
     "name": "Sgt. Hammer",
@@ -429,7 +429,7 @@
     "universe": 1,
     "description": "",
     "roles": [3],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/sgt-hammer_siegeTankOperator.jpg"
   },
   {
     "name": "Sonya",
@@ -437,7 +437,7 @@
     "universe": 2,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/sonya_wanderingBarbarian.jpg"
   },
   {
     "name": "Stitches",
@@ -445,7 +445,7 @@
     "universe": 0,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/stitches_terrorOfDarkshire.jpg"
   },
   {
     "name": "Tassadar",
@@ -453,7 +453,7 @@
     "universe": 1,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tassadar_saviorOfTheTemplar.jpg"
   },
   {
     "name": "Tyrael",
@@ -461,7 +461,7 @@
     "universe": 2,
     "description": "",
     "roles": [1],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tyrael_archangelOfJustice.jpg"
   },
   {
     "name": "Tyrande",
@@ -469,7 +469,7 @@
     "universe": 0,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tyrande_highPriestessOfElune.jpg"
   },
   {
     "name": "Uther",
@@ -477,7 +477,7 @@
     "universe": 0,
     "description": "",
     "roles": [2],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/uther_theLightbringer.jpg"
   },
   {
     "name": "Valla",
@@ -485,7 +485,7 @@
     "universe": 2,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/valla_demonHunter.jpg"
   },
   {
     "name": "Zeratul",
@@ -493,6 +493,6 @@
     "universe": 1,
     "description": "",
     "roles": [0],
-    "image": ""
+    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zeratul_darkPrelate.jpg"
   }
 ]
