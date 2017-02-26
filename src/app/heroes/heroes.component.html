@@ -1,6 +1,3 @@
 <h1>Heroes</h1>
-<ul>
-  <li *ngFor="let hero of heroes">
-    {{hero.name}}
-  </li>
-</ul>
+
+<app-hero-card *ngFor="let hero of heroes" [hero]="hero"></app-hero-card>

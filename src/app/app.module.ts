@@ -9,12 +9,14 @@ import { HeroService } from './hero.service';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { HeroCardComponent } from './hero-card/hero-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroCardComponent
   ],
   imports: [
     BrowserModule,
