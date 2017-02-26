@@ -28,7 +28,6 @@ export class HeroFilterComponent implements OnInit {
   }
 
   notifyChange () {
-    console.log("notifyChange");
     this.changed.emit(this.filter);
   }
 }
