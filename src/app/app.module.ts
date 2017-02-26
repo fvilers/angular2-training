@@ -15,6 +15,7 @@ import { HeroCardComponent } from './hero-card/hero-card.component';
 import { HeroUniversePipe } from './hero-universe.pipe';
 import { HeroRolePipe } from './hero-role.pipe';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HeroFilterComponent } from './hero-filter/hero-filter.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeroCardComponent,
     HeroUniversePipe,
     HeroRolePipe,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HeroFilterComponent
   ],
   imports: [
     BrowserModule,
