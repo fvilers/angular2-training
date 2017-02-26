@@ -13,6 +13,11 @@
   </md-card-content>
 
   <md-card-actions align="end">
-    <button md-button (click)="goToDetail()">More</button>
+    <button md-mini-fab mdTooltip="Add to favorites" mdTooltipPosition="above" (click)="addToFavorites()">
+      <md-icon>favorite</md-icon>
+    </button>
+    <button md-mini-fab mdTooltip="Learn more" mdTooltipPosition="above" (click)="goToDetail()">
+      <md-icon>more_horiz</md-icon>
+    </button>
   </md-card-actions>
 </md-card>
