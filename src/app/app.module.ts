@@ -6,10 +6,12 @@ import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
