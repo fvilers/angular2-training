@@ -11,7 +11,7 @@
     "name": "Valeera",
     "title": "Shadow of the Uncrowned",
     "universe": 0,
-    "description": "",
+    "description": "For a time, the gladiator Valeera Sanguinar served dutifully as one of Varian Wrynn's personal bodyguards. Now, her shadowy skills find her a natural fit within the secretive rogue order, the Uncrowned, in their fight against the Legion.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/valeera-standard_shadowOfTheUncrownedStandard.jpg"
   },
@@ -19,7 +19,7 @@
     "name": "Zul'jin",
     "title": "Warlord of the Amani",
     "universe": 0,
-    "description": "",
+    "description": "Before the elves and their Alliance, the forests of Lordaeron belonged to the trolls of the Amani empire. As their warlord, Zul'jin has united the tribes into an army that stands ready to take back what is theirs and to slay the elves who stole it from them.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zuljin_warlordOfTheAmani.jpg"
   },
@@ -27,7 +27,7 @@
     "name": "Ragnaros",
     "title": "The Firelord",
     "universe": 0,
-    "description": "",
+    "description": "Ragnaros, an elemental as old as the world of Azeroth, has been called to many realms… but rarely one so suited to his destructive nature as the Nexus. As he strives to reduce this new land to ash, Ragnaros hews about with the fiery hammer Sulfuras and takes command of allied and destroyed forts, scourging all who approach him with falling rocks and waves of magma. Though his power is vast, those who summon the Firelord must be prepared to watch the world burn.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/ragnaros_theFirelord.jpg"
   },
@@ -35,7 +35,7 @@
     "name": "Varian",
     "title": "High King of the Alliance",
     "universe": 0,
-    "description": "",
+    "description": "The gladiator king of Stormwind City, Varian Wrynn, has lived many lives. His anger shook the orcish hordes; his devotion preserved a nation. By wielding the sword Shalamayne two-handed, split into twin blades, or with a shield, Varian shifts his combat tactics: charging into melee with multiple opponents, enduring punishment or dueling one-on-one. Whether King Wrynn or Lo’Gosh the Ghost Wolf stands on the battlefield, the prowess of the man remains the same.",
     "roles": [1, 0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/varian-warrior_highKingOfTheAllianceWarrior.jpg"
   },
@@ -43,7 +43,7 @@
     "name": "Samuro",
     "title": "The Blademaster",
     "universe": 0,
-    "description": "",
+    "description": "Samuro, the last remaining blademaster to wear the banner of the Burning Blade, is on a warrior's pilgrimage in search of vengeance and redemption for his fallen clan. It will be a long journey, but he has sworn an oath to restore his clan's honor.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/samuro_theBlademaster.jpg"
   },
@@ -51,7 +51,7 @@
     "name": "Zarya",
     "title": "Defender of Russia",
     "universe": 4,
-    "description": "",
+    "description": "Aleksandra Zaryanova is one of the world's strongest women and was a promising athlete, but all that changed when the Siberian omnium reawakened. As a soldier in the Russian Defense Force, she now proudly uses her strength to protect the ones she loves.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zarya_defenderOfRussia.jpg"
   },
@@ -59,7 +59,7 @@
     "name": "Alarak",
     "title": "Highlord of the Tal'darim",
     "universe": 1,
-    "description": "",
+    "description": "Not all heroes are born of altruism... some, like Alarak, simply desire vengeance. As the new Highlord of the Tal'darim, Alarak leads his people to a destiny free of the corrupt influence of the fallen xel'naga, Amon.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/alarak_highlordOfTaldarim.jpg"
   },
@@ -67,7 +67,7 @@
     "name": "Auriel",
     "title": "Archange of Hope",
     "universe": 2,
-    "description": "",
+    "description": "It is through the archangel Auriel that the power of hope flows into the fabric of creation. Her eternal light illuminates even the darkest souls. Seeking harmony in all things, she is a mediator, a counselor, and when the need arises, a fearless warrior.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/auriel_archangelOfHope.jpg"
   },
@@ -75,7 +75,7 @@
     "name": "Gul'dan",
     "title": "Darkness Incarnate",
     "universe": 0,
-    "description": "",
+    "description": "Abandoning the ways of shamanism, Gul'dan entered a pact with the demon lord Kil'jaeden and betrayed his people in exchange for limitless power. But it came at a great cost: Gul'dan must sacrifice part of his own life force to fuel his destructive fel magics. With the orcish Horde under his master's thrall, both Draenor and Azeroth nearly fell into his grasp. Now, Gul'dan is set to spread his corruption across the Nexus!",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/guldan_darknessIncarnate.jpg"
   },
@@ -83,7 +83,7 @@
     "name": "Medivh",
     "title": "The Last Guardian",
     "universe": 0,
-    "description": "",
+    "description": "Under the influence of the demon lord Sargeras, Medivh opened the Dark Portal and unleashed the orcish Horde upon Azeroth. To atone for this sin, he rallied a new generation of heroes to stand against the Burning Legion during the Third War. In the Nexus, Medivh continues to lead his allies to greatness. He observes the battle from up high in Raven Form, then swoops down and uses shields and portals to turn the tide of battle. Now, he takes his place amongst the legends.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/medivh_theLastGuardian.jpg"
   },
@@ -91,7 +91,7 @@
     "name": "Chromie",
     "title": "Keeper of Time",
     "universe": 0,
-    "description": "",
+    "description": "At first glance, Chromie appears to be an ordinary gnome. In truth, she is Chronormu, Bronze Dragon and a master of time. Chromie uses her powers to control the flow of battle, slowing her enemies or even forcefully displacing them through time. When it comes to temporal manipulation, there’s no problem she can’t solve… with some help from her future self, of course.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/chromie_keeperOfTime.jpg"
   },
@@ -99,7 +99,7 @@
     "name": "Tracer",
     "title": "Agent of Overwatch",
     "universe": 4,
-    "description": "",
+    "description": "Lena Oxton (call sign: Tracer) is an adventurer and an irrepressible force for good. With the ability to alter her own time at will, she fights the good fight wherever she goes – even the Nexus. Bending space and time, Tracer is an extremely mobile and deadly teammate. Don’t worry, loves. The cavalry’s here.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tracer_agentOfOverwatch.jpg"
   },
@@ -107,7 +107,7 @@
     "name": "Dehaka",
     "title": "Primal Pack Leader",
     "universe": 1,
-    "description": "",
+    "description": "On Zerus, the zerg pack leader Dehaka was a constantly evolving apex predator. His drive to slay the strongest prey and consume their Essence has now led him to the Nexus, where Dehaka stalks his opponents across the battlefield. Able to regenerate through massive damage and swiftly move into and out of combat, Dehaka uses the primal zerg’s mutability to deadly effect.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/dehaka_primalPackLeader.jpg"
   },
@@ -115,7 +115,7 @@
     "name": "Xul",
     "title": "Cryptic Necromancer",
     "universe": 2,
-    "description": "",
+    "description": "From the recesses of the eastern jungles comes a man cloaked in mystery. As a member of the secretive Priests of Rathma, or the Necromancers, Xul fights to preserve the delicate balance between order and chaos. Using powerful death magic, Xul will sap the strength of his enemies, block their escape, and direct his spectral scythe with lethal accuracy. Those who fall before the Necromancer find no peace even in death, rising again as skeletal servants bound to do their master’s bidding.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/xul_crypticNecromancer.jpg"
   },
@@ -123,7 +123,7 @@
     "name": "Li-Ming",
     "title": "Rebellious Wizard",
     "universe": 2,
-    "description": "",
+    "description": "It’s a generally agreed upon fact of life among the denizens of Sanctuary that wizards and magical mayhem are never far apart. Although she understands people’s concerns, Li-Ming is entirely unapologetic for the destruction in her wake. She delights in unleashing devastating spells on her foes from afar, then teleporting away to frustrate her enemies’ attempts at striking back. Small minds may fear this kind of power, but Li-Ming wields the arcane forces of the universe with confidence and unmatched skill.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/li-ming_rebelliousWizard.jpg"
   },
@@ -131,7 +131,7 @@
     "name": "Greymane",
     "title": "Lord of the Worgen",
     "universe": 0,
-    "description": "",
+    "description": "Like most Gilneans, Genn Greymane is afflicted by the lycanthropic Worgen curse. Though he feels at fault for his people’s ill fate, he has embraced his inner beast without giving in to its feral nature. On the field of battle, Greymane relies on the marksman’s cunning to set up his targets and the beast’s savagery to pounce with deadly speed and accuracy. Now he leads his pack as both their alpha and their king.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/greymane-human_lordOfTheWorgenHuman.jpg"
   },
@@ -139,7 +139,7 @@
     "name": "Lunara",
     "title": "First Daughter of Cenarius",
     "universe": 0,
-    "description": "",
+    "description": "The dryads watch over the shadowed forests of Kalimdor. Fleet-footed, clever, and playful, they protect their home with tender loving care. But where her sisters are the delicate flowers of the deep forest, the dryad Lunara, first daughter of the demigod Cenarius, is the thorn that guards them. Lunara nimbly strikes from afar, withering her enemies with toxins, then bounds away before anyone can lay a hand on her. Take care if you face her in the Nexus, or Lunara will make an endangered species out of you!",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/lunara_firstDaughterOfCenarius.jpg"
   },
@@ -147,7 +147,7 @@
     "name": "Cho'gall",
     "title": "Twilight's Hammer Chieftain",
     "universe": 0,
-    "description": "",
+    "description": "Two personalities share the body of Cho’gall: Gall, cunning master of dark magics and forbidden incantations, and Cho, who’s never met a problem he couldn’t punch really, really hard. When working together, Cho’s powerful attacks and Gall’s destructive spells feed into each other to make Cho’gall’s enemies rue the day they crossed paths with this ogre. With Cho’s brawn and Gall’s dark powers, these two are ready to take the Nexus by storm… as soon as they can agree on a plan.",
     "roles": [1, 0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/cho_twilightsHammerChieftainCho.jpg"
   },
@@ -155,7 +155,7 @@
     "name": "Artanis",
     "title": "Hierarch of the Daelaam",
     "universe": 1,
-    "description": "",
+    "description": "Hierarch Artanis is an indomitable warrior who seeks to unify his beleaguered people. As a renowned and experienced Templar, Artanis combines martial prowess and tactical acumen—striking swiftly with his psi-blades, taking the brunt of enemy assaults with his shields, or calling upon his flagship, the Spear of Adun, to turn his foes into dust. He’ll let nothing stand in his way to restore the glory of the protoss.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/artanis_hierarchOfTheDaelaam.jpg"
   },
@@ -163,7 +163,7 @@
     "name": "Lt. Morales",
     "title": "Combat Medic",
     "universe": 1,
-    "description": "",
+    "description": "Lt. Morales joined the United Earth Directorate (UED) to make a difference and protect her family. Over a very long and storied career, she has distinguished herself as a peerless medic, able to keep her patients alive and in the fight long after anyone else would have gone down. Lt. Morales is a veteran of the Brood War, and even the destruction of the UED Expeditionary Fleet didn’t slow her down. In the Nexus, she does what she does best: heal her teammates, support her allies, and make a difference.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/lt-morales_combatMedic.jpg"
   },
@@ -171,7 +171,7 @@
     "name": "Rexxar",
     "title": "Champion of the Horde",
     "universe": 0,
-    "description": "",
+    "description": "Out in the wild, there is only the law of the jungle; survival depends on having a pack, on looking out for one another. Together with his loyal animal companions, the bear Misha and Spirit the hawk, he prowls the Nexus, always looking for the next challenge. The strength of the bear, the hawk's swiftness, and the hunter's cunning make them a formidable (and inseparable) team.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/rexxar_championOfTheHorde.jpg"
   },
@@ -179,7 +179,7 @@
     "name": "Kharazim",
     "title": "Veradani Monk",
     "universe": 2,
-    "description": "",
+    "description": "To the Monks of Ivgorod, the gods are in all things, and their divine will is proclaimed by the Patriarchs. With unshakable faith, Kharazim followed their decree to discover heavenly fire that had fallen upon on the town of New Tristram.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/kharazim_veradaniMonk.jpg"
   },
@@ -187,7 +187,7 @@
     "name": "Leoric",
     "title": "The Skeleton King",
     "universe": 2,
-    "description": "",
+    "description": "The rule of king Leoric is remembered as a time of great tragedy, fear, and madness. In life, he was a tyrannical ruler, driven mad by the Lord of Terror; in death, Leoric rose again as the dreaded Skeleton King. Swinging his giant mace, Leoric laughs in the face of death. When struck down, his ghostly form drains the essence of the living, replenishing Leoric until he rises to terrorize the field of battle once again.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/leoric_theSkeletonKing.jpg"
   },
@@ -195,7 +195,7 @@
     "name": "The Butcher",
     "title": "Flesh Carver",
     "universe": 2,
-    "description": "",
+    "description": "A grotesque shape lumbers across the Nexus, a cleaver and a blood-encrusted meat hook in his massive hands. His hunger, insatiable, insistent, drives him ever on to carve up his enemies and consume their fresh meat. Even those fighting alongside him shrink away in fear when he draws near. He is violence incarnate; he is brutality given shape. He is the Butcher.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/the-butcher_fleshCarver.jpg?v=58-84"
   },
@@ -203,7 +203,7 @@
     "name": "Johanna",
     "title": "Crusader of Zakarum",
     "universe": 2,
-    "description": "",
+    "description": "There have been many women who have borne the name Johanna in service of the crusade, and each has given her life to purify her faith. Johanna carries on their legacy as she searches the kingdom of Khanduras for the fallen star.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/johanna_crusaderOfZakarum.jpg"
   },
@@ -211,7 +211,7 @@
     "name": "Kael'thas",
     "title": "The Sun King",
     "universe": 0,
-    "description": "",
+    "description": "Like all Blood Elves, Prince Kael'thas was transformed by the fall of Quel'thalas. Desperate to save his people from being consumed by their magical addiction, he joined forces with the Burning Legion and now lords over Tempest Keep.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/kaelthas_theSunKing.jpg"
   },
@@ -219,7 +219,7 @@
     "name": "Sylvanas",
     "title": "The Banshee Queen",
     "universe": 0,
-    "description": "",
+    "description": "As ranger-general of Silvermoon, it was Sylvanas Windrunner's sworn duty to defend her home against all who would threaten Quel'thalas. She was an accomplished commander and a deadly archer, yet even Sylvanas could not stop the Scourge. Denying her a clean death, the Death Knight Arthas turned Sylvanas into a banshee. After Sylvanas regained her freedom, the Dark Lady rose to power as the Banshee Queen of the Forsaken undead. In the Nexus, Sylvanas haunts the battlefield, raining death on her opponents from afar and using her dark powers to twist and torment her enemies.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/sylvanas_theBansheeQueen.jpg"
   },
@@ -227,7 +227,7 @@
     "name": "The Lost Vikings",
     "title": "Triple Trouble",
     "universe": 3,
-    "description": "",
+    "description": "The Lost Vikings are back! While they briefly considered retirement after defeating the emperor Tomator, there were only so many polar bears they could wrestle before falling into a Nexus portal seemed like a solid life decision.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/the-lost-vikings_tripleTrouble.jpg"
   },
@@ -235,7 +235,7 @@
     "name": "Thrall",
     "title": "Warchief of the Horde",
     "universe": 0,
-    "description": "",
+    "description": "As a child, Thrall served the cruel Aedelas Blackmoore as a slave. After gaining his freedom, he guided the liberated orcs to a land of their own, and worked to recover their ancient traditions. Now and forever, he is the Warchief of the Horde.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/thrall_warchiefOfTheHorde.jpg"
   },
@@ -243,7 +243,7 @@
     "name": "Jaina",
     "title": "Archmage",
     "universe": 0,
-    "description": "",
+    "description": "Jaina Proudmoore is a master spellcaster, trained by the legendary Archmage Antonidas himself. Brilliant, courageous, and wise, it was Jaina who led the survivors of the Scourge of Lordaeron to safety. But don't mistake her graciousness for weakness, or she will gladly demonstrate to you the folly of picking a fight with a sorceress.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/jaina_archmage.jpg"
   },
@@ -251,7 +251,7 @@
     "name": "Anub'arak",
     "title": "Traitor King",
     "universe": 0,
-    "description": "",
+    "description": "Once a proud nerubian king, Anub'arak dared to stand against the Lich King's invasion, but despite his bravery, he too fell to the unrelenting Scourge. Resurrected into undeath, the Traitor King now serves as a towering, weapon of destruction.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/anubarak_traitorKing.jpg"
   },
@@ -259,7 +259,7 @@
     "name": "Azmodan",
     "title": "Lord of Sin",
     "universe": 2,
-    "description": "",
+    "description": "The Lord of Sin rules over a densely populated land of hell where both the greatest joys and despair, and the deepest depravities can be experienced. But it is never enough for Azmodan, who has set his eyes on the realm of Sanctuary.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/azmodan_lordOfSin.jpg"
   },
@@ -267,7 +267,7 @@
     "name": "Chen",
     "title": "Legendary Brewmaster",
     "universe": 0,
-    "description": "",
+    "description": "To be a Brewmaster is to be an explorer, a lover of nature, and when the need arises; a powerful fighter. For years Chen Stormstout has wandered the world of Azeroth in search of rare ingredients, stirring stories, and of course, good brew.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/chen_legendaryBrewmaster.jpg"
   },
@@ -275,7 +275,7 @@
     "name": "Rehgar",
     "title": "Shaman of the Earthen Ring",
     "universe": 0,
-    "description": "",
+    "description": "Rehgar Earthfury has seen his share of combat, both as a gladiator, and a master of his own team of fighters. Now, having put that life aside, he serves as a simple shaman of the Earthen Ring, earning his redemption by healing the broken lands of Azeroth.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/rehgar_shamanOfTheEarthenRing.jpg"
   },
@@ -283,7 +283,7 @@
     "name": "Zagara",
     "title": "Broodmother of the Swarm",
     "universe": 1,
-    "description": "",
+    "description": "If Kerrigan is the Queen of the Zerg, then Zagara is the mother of the brood. Cunning and tenacious, she commands her vicious minions on the field of battle. Encounter her brood and beware: mess with her children and you answer to mama.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zagara_broodmotherOfTheSwarm.jpg"
   },
@@ -291,7 +291,7 @@
     "name": "Murky",
     "title": "Babu Murloc",
     "universe": 0,
-    "description": "",
+    "description": "Mrgglglbrlg rmrmgllg mrggggm. Mrrglglgy, mgllglgl mgggrrmgll MRGGGLGLLM! Mrrggllgggllggll mrrglrlg mrrg mrrg mrrrg.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/murky_babyMurloc.jpg"
   },
@@ -299,7 +299,7 @@
     "name": "Brightwing",
     "title": "Faerie Dragon",
     "universe": 0,
-    "description": "",
+    "description": "The Faerie Dragons of Ashenvale are known for their playful demeanor, seemingly disappearing at a whim. The mischievous Brightwing is no exception, often materializing out of nowhere to save her allies or just to mock her foes.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/brightwing_faerieDragon.jpg"
   },
@@ -307,7 +307,7 @@
     "name": "Li Li",
     "title": "World Wandeler",
     "universe": 0,
-    "description": "",
+    "description": "Born upon Shen-zin Su the Wandering Isle, Li Li Stormstout led a somewhat uneventful life until she began reading the journals of her uncle Chen. Soon, nothing would sate her desire for adventure, exploration, and pestering adventurers in the Valley of the Four Winds.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/lili_worldWanderer.jpg"
   },
@@ -315,7 +315,7 @@
     "name": "Tychus",
     "title": "Notorious Outlaw",
     "universe": 1,
-    "description": "",
+    "description": "Former soldier. Erstwhile thief. Convicted felon. Tychus Findlay and Jim Raynor share what some might call a checkered past—the type filled with daring exploits and courageous fights doing not so courageous deeds. While no one can be sure where Tychus' loyalties lie, one thing is for certain: he's a fearsome combatant whose impact on the battlefield is anything but subtle. Tychus always goes big. Always.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tychus_notoriousOutlaw.jpg"
   },
@@ -323,7 +323,7 @@
     "name": "Abathur",
     "title": "Evolution Master",
     "universe": 1,
-    "description": "",
+    "description": "Abathur, the Evolution Master of Kerrigan's Swarm, works ceaselessly to improve the Zerg from the genetic level up. His hate for chaos and imperfection almost rivals his hatred of pronouns.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/abathur_evolutionMaster.jpg"
   },
@@ -331,7 +331,7 @@
     "name": "Arthas",
     "title": "The Lich King",
     "universe": 0,
-    "description": "",
+    "description": "Once the crown prince of Lordaeron and the protégé of the legendary paladin Uther the Lightbringer, Prince Arthas fell to darkness. In a desperate bid to save his people he was corrupted by the cursed blade Frostmourne, its hatred consuming him. Now he serves the Lich King as a death knight eternally bound to his terrible destiny...and always a little cold.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/arthas_theLichKing.jpg"
   },
@@ -339,7 +339,7 @@
     "name": "Diablo",
     "title": "Lord of Terror",
     "universe": 2,
-    "description": "",
+    "description": "Known in the ancient tongue as Al'Diabolos, the Prime Evil of Terror, the demon lord Diablo seeks to claim the world of Sanctuary for the Burning Hells. As the Lord of Terror, Diablo thrives on the fear of others, only satiated by the horror of those who fall before him. His victims are innumerable, his schemes are unknowable, and his gender is...malleable.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/diablo_lordOfTerror.jpg"
   },
@@ -347,7 +347,7 @@
     "name": "E.T.C.",
     "title": "Rock God",
     "universe": 0,
-    "description": "",
+    "description": "The Power of the Horde incarnated by brutal rhythms and blistering guitar riffs into the most elite tauren chieftain to ever headbang across the surface of Azeroth. Don't bother putting on socks. He's just going to rock them off anyways.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/etc_rockGod.jpg"
   },
@@ -355,7 +355,7 @@
     "name": "Falstad",
     "title": "Wildhammer Thane",
     "universe": 0,
-    "description": "",
+    "description": "Falstad is the High Thane of the Wildhammer Clan and a founding member of the Council of Three Hammers that presides over Ironforge. Despite speculation, Falstad has never been dead and anyone who claims such is a liar.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/falstad_wildhammerThane.jpg"
   },
@@ -363,7 +363,7 @@
     "name": "Gazlowe",
     "title": "Boss of Ratchet",
     "universe": 0,
-    "description": "",
+    "description": "Upon first glance, few would think of the diminutive Gazlowe as a fighter, but what he lacks in height, he more than makes up for in mechanical cunning. The newest mechanical exoskeleton he's been working on for example is an especially effective war machine—when it's working.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/gazlowe_bossOfRatchet.jpg"
   },
@@ -371,7 +371,7 @@
     "name": "Illidan",
     "title": "The Betrayer",
     "universe": 0,
-    "description": "",
+    "description": "Illidan Stormrage, the original Demon Hunter, betrayed his people by creating a new Well of Eternity after the demonic invasion of Azeroth. After 10,000 years of imprisonment he was freed by Tyrande Whisperwind against his own brother Malfurion Stormrage's wishes. Now, Illidan lords over the realm of Outland, slaughtering unsuitably prepared heroes who venture into his domain.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/illidan_theBetrayer.jpg"
   },
@@ -379,7 +379,7 @@
     "name": "Kerrigan",
     "title": "Queen of Blades",
     "universe": 1,
-    "description": "",
+    "description": "Once a Terran ghost with unprecedented psionic abilities, Sarah Kerrigan was betrayed by her allies and transformed by the ravenous zerg into the indomitable Queen of Blades. Now freed of The Dark God Amon's corruption, Kerrigan faces a threat that could destroy the galaxy itself.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/kerrigan_queenOfBlades.jpg"
   },
@@ -387,7 +387,7 @@
     "name": "Malfurion",
     "title": "Archdruid",
     "universe": 0,
-    "description": "",
+    "description": "Malfurion Stormrage is the greatest druid on Azeroth and the chosen student of his Shan'do, the demigod Cenarius. Communing with nature through the Emerald Dream, Malfurion protects the wilds from both demonic influences and the savage Horde. His only weakness? A penchant for taking long, long, 1,000-years-long naps.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/malfurion_archdruid.jpg"
   },
@@ -395,7 +395,7 @@
     "name": "Muradin",
     "title": "Mountain King",
     "universe": 0,
-    "description": "",
+    "description": "Once a mentor to Prince Arthas, Muradin was unable to prevent him from becoming the Lich King. After recovering from a mild case of amnesia, he is now the leader of the Bronzebeard clan since the \"diamond-ization\" of his brother, King Magni.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/muradin_mountainKing.jpg"
   },
@@ -403,7 +403,7 @@
     "name": "Nazeebo",
     "title": "Heretic Witch Doctor",
     "universe": 2,
-    "description": "",
+    "description": "With cabalistic incantations and vestments of feather and bone, the heretic Witch Doctor Nazeebo of the Umbaru tribe calls upon spirits from the Unformed Land to aid him in battle. Few outlanders ever encounter a Witch Doctor in the flesh, without losing their own.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/nazeebo_hereticWitchDoctor.jpg"
   },
@@ -411,7 +411,7 @@
     "name": "Nova",
     "title": "Dominion Ghost",
     "universe": 1,
-    "description": "",
+    "description": "November \"Nova\" Terra is a ghost of the Terran Dominion and one of the most powerful psionic soldiers ever known. Nova is highly focused, determined, and extremely deadly. Even Jim Raynor wouldn't want to be caught within her crosshairs.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/nova_dominionGhost.jpg"
   },
@@ -419,7 +419,7 @@
     "name": "Raynor",
     "title": "Renegade Commander",
     "universe": 1,
-    "description": "",
+    "description": "Ex-confederate marshal James Raynor has stood against whatever the universe can throw at him and survived with just a few scars and a penchant for Scotty Bolger's whiskey. He now stands as a bright beacon of hope in the face of a corrupt government, enigmatic protoss, and ferocious all-consuming zerg...No wonder the man drinks.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/raynor_renegadeCommander.jpg"
   },
@@ -427,7 +427,7 @@
     "name": "Sgt. Hammer",
     "title": "Siege Tank Operator",
     "universe": 1,
-    "description": "",
+    "description": "Sergeant Bama \"the Hammer\" Kowalski has served some of the toughest tours around the Koprulu sector. The roar of her siege tank's shock cannon strikes fear right into the heart of the toughest of warriors... including some of her allies.",
     "roles": [3],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/sgt-hammer_siegeTankOperator.jpg"
   },
@@ -435,7 +435,7 @@
     "name": "Sonya",
     "title": "Wandering Barbarian",
     "universe": 2,
-    "description": "",
+    "description": "From the frozen Dreadlands of the north come the mighty Barbarian warriors. After surviving the destruction of her home and death of her tribe, Sonya wanders Sanctuary in search of battle and a better life for her people.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/sonya_wanderingBarbarian.jpg"
   },
@@ -443,7 +443,7 @@
     "name": "Stitches",
     "title": "Terror of Darkshire",
     "universe": 0,
-    "description": "",
+    "description": "Take care when traversing the shadowed trails of Duskwood...ever since Abercrombie the Embalmer unleashed his abomination upon Darkshire, Stitches has wandered the road aimlessly, hungering for the flesh of low level Alliance players.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/stitches_terrorOfDarkshire.jpg"
   },
@@ -451,7 +451,7 @@
     "name": "Tassadar",
     "title": "Savior of the Temple",
     "universe": 1,
-    "description": "",
+    "description": "An executor without equal, Tassadar stood against the orders of the conclave, uniting with the Dark Templar, and fought valiantly to save Aiur from the zerg. Channeling the Khala and the Void, he destroyed the Overmind at the cost of his own life. In the glory of combat, protoss warriors forever invoke his name: “En Taro, Tassadar!”",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tassadar_saviorOfTheTemplar.jpg"
   },
@@ -459,7 +459,7 @@
     "name": "Tyrael",
     "title": "Archangel of Justice",
     "universe": 2,
-    "description": "",
+    "description": "Among the angels it is the Archangel of Justice Tyrael who is humanity's greatest defender. Wielding his sword El'druin against the Burning Hells, the Prime Evils would have enslaved Sanctuary and all of humanity long ago if Tyrael had not intervened.",
     "roles": [1],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tyrael_archangelOfJustice.jpg"
   },
@@ -467,7 +467,7 @@
     "name": "Tyrande",
     "title": "High Priestress of Elune",
     "universe": 0,
-    "description": "",
+    "description": "Tyrande Whisperwind strikes fear into all who wish ill of the Kaldorei. As the highest ranking Sentinel and High Priestess of Elune, she is not only the Night Elves' most deadly warrior, but also their most cunning leader.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tyrande_highPriestessOfElune.jpg"
   },
@@ -475,7 +475,7 @@
     "name": "Uther",
     "title": "The Lightbringer",
     "universe": 0,
-    "description": "",
+    "description": "The first paladin and founder of the Order of the Silver Hand, Uther the Lightbringer is a faithful servant of the Light. Dispensing justice with the swing of his hammer, Uther is a bastion of truth and an unflinching symbol of the Alliance.",
     "roles": [2],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/uther_theLightbringer.jpg"
   },
@@ -483,7 +483,7 @@
     "name": "Valla",
     "title": "Demon Hunter",
     "universe": 2,
-    "description": "",
+    "description": "Valla witnessed the ferocity of hellspawn firsthand as the demons ravaged her village and left her for dead. Now, with no people to call her own, her only allegiance is to her cause: to rid Sanctuary of the demonic filth corrupting its lands. She also likes long walks on the beach, puppies, and crossbows.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/valla_demonHunter.jpg"
   },
@@ -491,7 +491,7 @@
     "name": "Zeratul",
     "title": "Dark Prelate",
     "universe": 1,
-    "description": "",
+    "description": "The enigmatic Dark Templar Zeratul serves the Xel'Naga. While he expertly wields the power of the Void, it is his wisdom that earns him the respect of the Koprulu sector's leaders - despite his penchant for dramatic entrances.",
     "roles": [0],
     "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zeratul_darkPrelate.jpg"
   }
