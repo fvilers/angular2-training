@@ -5,13 +5,16 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 
+import { HeroService } from './hero.service';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    HeroesComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +22,9 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     HttpModule,
     MaterialModule
   ],
-  providers: [],
+  providers: [
+    HeroService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
