@@ -12,7 +12,9 @@ export class HeroService {
   constructor(private http: Http) {
   }
 
-  searchHeroes(universe: HeroUniverse, role: HeroRole): Observable<Hero[]> {
+  searchHeroes(universe: HeroUniverse, role: HeroRole, terms: string): Observable<Hero[]> {
+    const regexp = new RegExp(terms, 'i');
+
     return this.http
       .get(this.url)
       .map(response => {
@@ -20,6 +22,7 @@ export class HeroService {
         return heroes.filter(hero =>
           (universe === undefined || hero.universe === universe)
           && (role === undefined || hero.roles.indexOf(role) !== -1)
+          && (!terms || hero.name.match(regexp) || hero.title.match(regexp))
         )
       })
   }

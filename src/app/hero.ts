@@ -1,10 +1,10 @@
 export class Hero {
-  name: String;
-  title: String;
+  name: string;
+  title: string;
   universe: HeroUniverse;
-  description: String;
+  description: string;
   roles: HeroRole[];
-  image: String;
+  image: string;
 }
 
 export enum HeroRole {

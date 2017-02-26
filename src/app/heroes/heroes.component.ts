@@ -23,7 +23,7 @@ export class HeroesComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     this.heroes = this.filter
       .switchMap(filter => filter
-        ? this.heroService.searchHeroes(filter.universe, filter.role)
+        ? this.heroService.searchHeroes(filter.universe, filter.role, filter.terms)
         : Observable.of<Hero[]>([]))
       .catch(error => {
         // TODO: add real error handling

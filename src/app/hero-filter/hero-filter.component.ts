@@ -35,4 +35,5 @@ export class HeroFilterComponent implements OnInit {
 export class HeroFilter {
   universe: HeroUniverse;
   role: HeroRole;
+  terms: string;
 }
