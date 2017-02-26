@@ -12,6 +12,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroCardComponent } from './hero-card/hero-card.component';
 import { HeroUniversePipe } from './hero-universe.pipe';
+import { HeroRolePipe } from './hero-role.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HeroUniversePipe } from './hero-universe.pipe';
     ToolbarComponent,
     HeroesComponent,
     HeroCardComponent,
-    HeroUniversePipe
+    HeroUniversePipe,
+    HeroRolePipe
   ],
   imports: [
     BrowserModule,
