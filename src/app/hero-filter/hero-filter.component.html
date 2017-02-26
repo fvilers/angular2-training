@@ -1,15 +1,17 @@
-<div>
-  <md-select placeholder="Universe" [(ngModel)]="filter.universe" (change)="notifyChange()">
-    <md-option *ngFor="let universe of universes" [value]="universe">
-      {{universe | heroUniverse}}
-    </md-option>
-  </md-select>
+<md-card class="filter">
+  <md-card-content>
+    <md-select placeholder="Universe" [(ngModel)]="filter.universe" (change)="notifyChange()">
+      <md-option *ngFor="let universe of universes" [value]="universe">
+        {{universe | heroUniverse}}
+      </md-option>
+    </md-select>
 
-  <md-select placeholder="Role" [(ngModel)]="filter.role" (change)="notifyChange()">
-    <md-option *ngFor="let role of roles" [value]="role">{{role | heroRole}}</md-option>
-  </md-select>
+    <md-select placeholder="Role" [(ngModel)]="filter.role" (change)="notifyChange()">
+      <md-option *ngFor="let role of roles" [value]="role">{{role | heroRole}}</md-option>
+    </md-select>
 
-  <md-input-container>
-    <input mdInput type="text" placeholder="Search heroes..." [(ngModel)]="filter.terms" (input)="notifyChange()">
-  </md-input-container>
-</div>
+    <md-input-container>
+      <input mdInput type="text" placeholder="Search heroes..." [(ngModel)]="filter.terms" (input)="notifyChange()">
+    </md-input-container>
+  </md-card-content>
+</md-card>

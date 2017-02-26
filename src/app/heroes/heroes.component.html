@@ -2,7 +2,7 @@
 
 <app-hero-filter (change)="filterHeroes($event)"></app-hero-filter>
 
-<div class="flex-container" fxLayout="row" fxLayoutWrap="wrap">
+<div class="flex-container" fxLayout="row" fxLayoutWrap="wrap" fxLayoutGap="10px">
   <app-hero-card *ngFor="let hero of heroes | async" [hero]="hero" class="flex-item"></app-hero-card>
 </div>
 
