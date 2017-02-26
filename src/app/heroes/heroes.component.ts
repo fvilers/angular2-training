@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { Subject } from 'rxjs/Subject'
+import 'rxjs/add/observable/of';
+import 'rxjs/add/operator/catch';
 
 import { HeroFilter } from '../hero-filter/hero-filter.component';
 import { HeroService } from '../hero.service';
@@ -9,23 +13,30 @@ import { Hero } from '../hero';
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.scss']
 })
-export class HeroesComponent implements OnInit {
-  heroes: Hero[];
+export class HeroesComponent implements OnInit, AfterViewInit {
+  heroes: Observable<Hero[]>;
+  private filter = new Subject<HeroFilter>();
 
   constructor(private heroService: HeroService) {
   }
 
   ngOnInit() {
-    this.getHeroes(); 
+    this.heroes = this.filter
+      .switchMap(filter => filter
+        ? this.heroService.searchHeroes(filter.universe, filter.role)
+        : Observable.of<Hero[]>([]))
+      .catch(error => {
+        // TODO: add real error handling
+        console.log(error);
+        return Observable.of<Hero[]>([]);
+      });
   }
 
-  getHeroes(): Promise<Hero[]> {
-    return this.heroService
-        .getHeroes()
-        .then(heroes => this.heroes = heroes);
+  ngAfterViewInit() {
+    this.filterHeroes(new HeroFilter());
   }
 
   filterHeroes (filter: HeroFilter) {
-    console.log("filter", filter);
+    this.filter.next(filter);
   }
 }

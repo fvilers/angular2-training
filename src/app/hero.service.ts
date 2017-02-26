@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
-import 'rxjs/add/operator/toPromise';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/map';
 
-import { Hero } from './hero';
+import { Hero, HeroUniverse, HeroRole } from './hero';
 
 @Injectable()
 export class HeroService {
@@ -11,16 +12,15 @@ export class HeroService {
   constructor(private http: Http) {
   }
 
-  getHeroes() {
-    return this.http.get(this.url)
-      .toPromise()
-      .then(response => response.json() as Hero[])
-      .catch(this.handleError);
-  }
-
-  private handleError(error: any): Promise<any> {
-    console.error('An error occured', error);
-
-    return Promise.reject(error.message || error);
+  searchHeroes(universe: HeroUniverse, role: HeroRole): Observable<Hero[]> {
+    return this.http
+      .get(this.url)
+      .map(response => {
+        const heroes = response.json() as Hero[];
+        return heroes.filter(hero =>
+          (universe === undefined || hero.universe === universe)
+          && (role === undefined || hero.roles.indexOf(role) !== -1)
+        )
+      })
   }
 } 
