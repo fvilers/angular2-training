@@ -23,11 +23,19 @@ $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-
 @include angular-material-theme($candy-app-theme);
 
 body {
-  background: #EFEFEF;
-  font-family: 'Roboto', sans-serif;
+  background: #FAFAFA;
+  color: rgba(00, 00, 00, .87);
+  font-family: Roboto, Helvetica Neue, sans-serif;
   font-size: 16px;
+  font-weight: normal;
   margin: 0;
   padding: 0;
+}
+
+.headline {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 [md-button], [md-raised-button] {
