@@ -14,5 +14,6 @@ app.use(morgan('dev'));
 app.use(express.static(www));
 app.use('/api', require('./api'));
 app.use('*', (req, res) => res.sendFile('index.html', { root: www }));
+app.use((err, req, res, next) => res.status(err.status || 500).send(err));
 
 module.exports = app;

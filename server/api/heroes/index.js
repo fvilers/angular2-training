@@ -3,6 +3,6 @@
 const express = require('express');
 const router = express.Router();
 
-router.use('/heroes', require('./heroes'));
+router.get('/', require('./find'));
 
 module.exports = Object.freeze(router);
