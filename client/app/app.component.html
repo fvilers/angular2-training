@@ -1,4 +1,13 @@
-<app-toolbar></app-toolbar>
-<main class="app-content">
-  <router-outlet></router-outlet>
-</main>
+<div [class.dark]="isDark">
+  <md-toolbar color="primary">
+    <h2 class="headline">The Nexus</h2>
+    <span class="filler"></span>
+    <a md-button [routerLink]="['/heroes']">Heroes</a>
+    <a md-button [routerLink]="['/about']">About</a>
+    <button md-raised-button (click)="isDark = !isDark">Switch Theme</button>
+  </md-toolbar>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>
