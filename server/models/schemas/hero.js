@@ -25,6 +25,9 @@ const schema = new mongoose.Schema({
     type: String,
     required: true
   },
+  description: {
+    type: String
+  }
 }, Object.assign(options, { collection: 'heroes' }));
 
 schema.plugin(require('mongoose-slug-hero'), { doc: 'filter', field: 'name' });
