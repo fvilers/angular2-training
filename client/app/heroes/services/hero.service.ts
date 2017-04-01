@@ -15,8 +15,9 @@ export class HeroService {
   }
 
   searchHeroes(universe: HeroUniverse, role: HeroRole, terms: string): Observable<Hero[]> {
+    const query = this.querystring({ universe, role, terms });
     return this.http
-      .get(`${this.url}?universe=${universe}&role=${role}&terms=${encodeURI(terms || '')}`)
+      .get(`${this.url}?${query}`)
       .map(response => response.json() as Hero[]);
   }
 
@@ -26,6 +27,14 @@ export class HeroService {
       .then(response => response.json() as Hero[])
       .then(heroes => heroes.filter(hero => hero.name === name).pop())
       .catch(this.handleError);
+  }
+
+  private querystring(query) {
+    return Object
+      .keys(query)
+      .filter(key => query[key] || query[key] === 0 || query[key] === false)
+      .map(key => encodeURI(key) + '=' + encodeURI(query[key]))
+      .join('&');
   }
 
   private handleError(error: any): Promise<any> {
