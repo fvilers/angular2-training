@@ -6,10 +6,9 @@ import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 
-import { HeroFilter } from '../hero-filter/hero-filter.component';
 import { HeroService } from '../../services';
 import { WindowService } from '../../../core';
-import { Hero } from '../../models';
+import { Hero, HeroFilter } from '../../models';
 
 @Component({
   selector: 'app-heroes',

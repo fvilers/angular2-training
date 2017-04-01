@@ -1,6 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
-import { HeroUniverse, HeroRole } from '../../models';
+import { HeroUniverse, HeroRole, HeroFilter } from '../../models';
 
 @Component({
   selector: 'app-hero-filter',
@@ -29,17 +29,5 @@ export class HeroFilterComponent implements OnInit {
 
   notifyChange () {
     this.changed.emit(this.filter);
-  }
-}
-
-export class HeroFilter {
-  universe: HeroUniverse;
-  role: HeroRole;
-  terms: string;
-
-  static compare(x: HeroFilter, y: HeroFilter) {
-    return x.universe !== y.universe
-      && x.role !== y.role
-      && x.terms !== y.terms;
   }
 }
