@@ -1,8 +1,10 @@
 import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { Subject } from 'rxjs/Subject'
+import { Subject } from 'rxjs/Subject';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/catch';
+import 'rxjs/add/operator/debounceTime';
+import 'rxjs/add/operator/distinctUntilChanged';
 
 import { HeroFilter } from '../hero-filter/hero-filter.component';
 import { HeroService } from '../../services';
@@ -29,6 +31,8 @@ export class HeroesComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {
     this.heroes = this.filter
+      .debounceTime(300)
+      .distinctUntilChanged()
       .switchMap(filter => filter
         ? this.heroService.searchHeroes(filter.universe, filter.role, filter.terms)
         : Observable.of<Hero[]>([]))
