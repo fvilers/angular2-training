@@ -25,9 +25,9 @@ export class HeroesComponent implements OnInit, AfterViewInit {
   }
 
   @HostListener('window:scroll', ['$event'])
-    trackPosition(event) {
-      this.canMoveToTop =  document.body.scrollTop > 0;
-    }
+  trackPosition(event) {
+    this.canMoveToTop =  document.body.scrollTop > 0;
+  }
 
   ngOnInit() {
     this.heroes = this.filter
