@@ -3,12 +3,13 @@ import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
+import { environment } from '../../../environments/environment';
 
 import { Hero, HeroUniverse, HeroRole } from '../models';
 
 @Injectable()
 export class HeroService {
-  private url = 'assets/heroes.json';
+  private url = `${environment.backend.url}/heroes`;
 
   constructor(private http: Http) {
   }
