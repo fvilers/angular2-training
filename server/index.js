@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const cors = require('cors');
 const compression = require('compression');
 const helmet = require('helmet');
 const morgan = require('morgan');
@@ -11,6 +12,7 @@ const www = path.join(__dirname, '../dist');
 const app = express();
 
 // Middlewares
+app.use(cors(configuration.cors));
 app.use(compression());
 app.use(helmet());
 app.use(morgan('dev'));
