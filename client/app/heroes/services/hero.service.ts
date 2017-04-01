@@ -15,25 +15,9 @@ export class HeroService {
   }
 
   searchHeroes(universe: HeroUniverse, role: HeroRole, terms: string): Observable<Hero[]> {
-    const regexp = new RegExp(terms, 'i');
-
     return this.http
-      .get(this.url)
-      .map(response => {
-        const heroes = response.json() as Hero[];
-
-        return heroes
-          .filter(hero =>
-            (universe === undefined || hero.universe === universe)
-            && (role === undefined || hero.roles.indexOf(role) !== -1)
-            && (!terms || hero.name.match(regexp) || hero.title.match(regexp))
-          )
-          .sort((a, b) => {
-            if (a.name < b.name) return -1;
-            if (a.name > b.name) return 1;
-            return 0;
-          })
-      });
+      .get(`${this.url}?terms=${encodeURI(terms || '')}`)
+      .map(response => response.json().data as Hero[]);
   }
 
   getHero(name: string): Promise<Hero> {

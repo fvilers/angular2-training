@@ -4,8 +4,11 @@ const Hero = require('../../models/hero');
 const createError = require('http-errors');
 
 function findHeroes (req, res, next) {
-  const query = {}
-  Hero.find()
+  const regexp = new RegExp(req.query.terms, 'i');
+  const query = {
+    name: { $regex: regexp }
+  }
+  Hero.find(query)
     .then(sendResponse)
     .catch(next)
   ;

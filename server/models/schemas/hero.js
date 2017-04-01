@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const options = require('./default-options');
 const schema = new mongoose.Schema({
   name: {
-    index: true,
     required: true,
     type: String,
     unique: true
