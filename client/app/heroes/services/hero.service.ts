@@ -17,7 +17,7 @@ export class HeroService {
   searchHeroes(universe: HeroUniverse, role: HeroRole, terms: string): Observable<Hero[]> {
     return this.http
       .get(`${this.url}?terms=${encodeURI(terms || '')}`)
-      .map(response => response.json().data as Hero[]);
+      .map(response => response.json() as Hero[]);
   }
 
   getHero(name: string): Promise<Hero> {
