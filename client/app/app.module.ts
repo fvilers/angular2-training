@@ -7,7 +7,6 @@ import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-import { AboutModule } from './about';
 import { HeroesModule } from './heroes';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -28,7 +27,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    AboutModule,
     HeroesModule,
     AppRoutingModule
   ],
