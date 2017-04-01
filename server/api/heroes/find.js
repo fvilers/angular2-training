@@ -19,8 +19,7 @@ function findHeroes (req, res, next) {
 
   Hero.find(query)
     .then(sendResponse)
-    .catch(next)
-  ;
+    .catch(next);
 
   function sendResponse (heroes) {
     const list = heroes.map(hero => hero.toObject());

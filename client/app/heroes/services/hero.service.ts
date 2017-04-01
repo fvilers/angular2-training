@@ -22,10 +22,9 @@ export class HeroService {
   }
 
   getHero(name: string): Promise<Hero> {
-    return this.http.get(this.url)
+    return this.http.get(`${this.url}/${name}`)
       .toPromise()
-      .then(response => response.json() as Hero[])
-      .then(heroes => heroes.filter(hero => hero.name === name).pop())
+      .then(response => response.json() as Hero)
       .catch(this.handleError);
   }
 
