@@ -1,12 +1,14 @@
-import { NgModule } from '@angular/core';
+import { ErrorHandler, NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
 import { PageNotFoundComponent } from './components';
 import { RouterLinkStubDirective, RouterOutletStubComponent } from './testing';
-import { WindowService } from './services';
+import { ErrorSubject, ObservableErrorHandler, WindowService } from './services';
 
 @NgModule({
   imports: [
+    BrowserAnimationsModule,
     MaterialModule,
     RouterModule
   ],
@@ -20,6 +22,13 @@ import { WindowService } from './services';
     RouterLinkStubDirective,
     RouterOutletStubComponent
   ],
-  providers: [WindowService]
+  providers: [
+    {
+        provide: ErrorHandler,
+        useClass: ObservableErrorHandler
+    },
+    ErrorSubject,
+    WindowService
+  ]
 })
 export class CoreModule { }

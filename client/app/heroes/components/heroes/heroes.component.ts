@@ -35,12 +35,7 @@ export class HeroesComponent implements OnInit, AfterViewInit {
       .distinctUntilChanged(HeroFilter.compare)
       .switchMap(filter => filter
         ? this.heroService.searchHeroes(filter.universe, filter.role, filter.terms)
-        : Observable.of<Hero[]>([]))
-      .catch(error => {
-        // TODO: add real error handling
-        console.log(error);
-        return Observable.of<Hero[]>([]);
-      });
+        : Observable.of<Hero[]>([]));
     this.heroes.subscribe(heroes => this.count = heroes ? heroes.length : 0);
   }
 

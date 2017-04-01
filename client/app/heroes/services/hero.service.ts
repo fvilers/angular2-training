@@ -24,8 +24,7 @@ export class HeroService {
   getHero(name: string): Promise<Hero> {
     return this.http.get(`${this.url}/${name}`)
       .toPromise()
-      .then(response => response.json() as Hero)
-      .catch(this.handleError);
+      .then(response => response.json() as Hero);
   }
 
   private querystring(query) {
@@ -34,12 +33,5 @@ export class HeroService {
       .filter(key => query[key] || query[key] === 0 || query[key] === false)
       .map(key => encodeURI(key) + '=' + encodeURI(query[key]))
       .join('&');
-  }
-
-  private handleError(error: any): Promise<any> {
-    // TODO: add real error handling
-    console.error('An error occurred', error);
-
-    return Promise.reject(error.message || error);
   }
 }
