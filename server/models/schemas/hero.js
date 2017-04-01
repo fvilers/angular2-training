@@ -12,10 +12,6 @@ const schema = new mongoose.Schema({
   title: {
     type: String
   },
-  value: {
-    required: true,
-    type: String
-  },
   universe: {
     index: true,
     required: true,
@@ -30,7 +26,7 @@ const schema = new mongoose.Schema({
     type: String,
     required: true
   },
-}, options);
+}, Object.assign(options, { collection: 'heroes' }));
 
 schema.plugin(require('mongoose-slug-hero'), { doc: 'filter', field: 'name' });
 
