@@ -1,7 +1,7 @@
 /* tslint:disable:no-unused-variable */
 import { MaterialModule } from '@angular/material';
 import { TestBed, async } from '@angular/core/testing';
-import { RouterLinkStubDirective, RouterOutletStubComponent, ToolbarComponent } from './core';
+import { RouterLinkStubDirective, RouterOutletStubComponent } from './core';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
@@ -10,8 +10,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         RouterLinkStubDirective,
-        RouterOutletStubComponent,
-        ToolbarComponent
+        RouterOutletStubComponent
       ],
       imports: [MaterialModule]
     });

@@ -2,8 +2,11 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
-import { RouterLinkStubDirective } from '../../../core';
+import { Hero } from '../../models';
+import { ActivatedRouteStub, RouterLinkStubDirective } from '../../../core';
+import { HeroService } from '../../services';
 import { HeroDetailComponent } from './hero-detail.component';
 
 describe('HeroDetailComponent', () => {
@@ -11,10 +14,24 @@ describe('HeroDetailComponent', () => {
   let fixture: ComponentFixture<HeroDetailComponent>;
 
   beforeEach(async(() => {
+
+    // stub Hero Service for test purposes
+    let heroServiceStub = {
+      getHero: function (name: string) { return Promise.resolve(new Hero()); }
+    };
+
+    // stub activated route
+    let activatedRoute: ActivatedRouteStub = new ActivatedRouteStub();
+    activatedRoute.testParams = { name: 'test' };
+
     TestBed.configureTestingModule({
       declarations: [
         HeroDetailComponent,
         RouterLinkStubDirective
+      ],
+      providers: [
+        {provide: ActivatedRoute, useValue: activatedRoute },
+        {provide: HeroService, useValue: heroServiceStub },
       ]
     })
       .compileComponents();
