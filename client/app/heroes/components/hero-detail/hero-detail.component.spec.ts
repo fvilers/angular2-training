@@ -3,6 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
+import { RouterLinkStubDirective } from '../../../core';
 import { HeroDetailComponent } from './hero-detail.component';
 
 describe('HeroDetailComponent', () => {
@@ -11,9 +12,12 @@ describe('HeroDetailComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeroDetailComponent ]
+      declarations: [
+        HeroDetailComponent,
+        RouterLinkStubDirective
+      ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
