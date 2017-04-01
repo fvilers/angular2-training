@@ -1,0 +1,16 @@
+{
+  "name": "angular-training",
+  "scripts": {
+  },
+  "env": {
+    "MONGO_URI": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+  ],
+  "buildpacks": [
+  ]
+}
