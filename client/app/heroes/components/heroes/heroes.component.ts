@@ -18,6 +18,7 @@ import { Hero } from '../../models';
 })
 export class HeroesComponent implements OnInit, AfterViewInit {
   heroes: Observable<Hero[]>;
+  count = 0;
   canMoveToTop = false;
   private filter = new Subject<HeroFilter>();
 
@@ -32,7 +33,7 @@ export class HeroesComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     this.heroes = this.filter
       .debounceTime(300)
-      .distinctUntilChanged()
+      .distinctUntilChanged(HeroFilter.compare)
       .switchMap(filter => filter
         ? this.heroService.searchHeroes(filter.universe, filter.role, filter.terms)
         : Observable.of<Hero[]>([]))
@@ -41,6 +42,7 @@ export class HeroesComponent implements OnInit, AfterViewInit {
         console.log(error);
         return Observable.of<Hero[]>([]);
       });
+    this.heroes.subscribe(heroes => this.count = heroes ? heroes.length : 0);
   }
 
   ngAfterViewInit() {
