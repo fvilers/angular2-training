@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-import { HeroRole } from './hero';
+import { HeroRole } from '../models';
 
 @Pipe({
   name: 'heroRole'

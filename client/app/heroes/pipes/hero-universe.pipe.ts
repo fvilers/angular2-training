@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-import { HeroUniverse } from './hero';
+import { HeroUniverse } from '../models';
 
 @Pipe({
   name: 'heroUniverse'

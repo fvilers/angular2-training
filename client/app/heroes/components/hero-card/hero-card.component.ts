@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MdSnackBar, MdSnackBarConfig } from '@angular/material';
 
-import { Hero } from '../hero';
+import { Hero } from '../../models';
 
 @Component({
   selector: 'app-hero-card',

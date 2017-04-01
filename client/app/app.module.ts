@@ -7,31 +7,19 @@ import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import { HeroesModule } from './heroes';
+
 import { AppRoutingModule } from './app-routing.module';
-import { HeroService } from './hero.service';
-import { WindowService } from './window.service';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
-import { HeroesComponent } from './heroes/heroes.component';
-import { HeroCardComponent } from './hero-card/hero-card.component';
-import { HeroUniversePipe } from './hero-universe.pipe';
-import { HeroRolePipe } from './hero-role.pipe';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { HeroFilterComponent } from './hero-filter/hero-filter.component';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    HeroesComponent,
-    HeroCardComponent,
-    HeroUniversePipe,
-    HeroRolePipe,
     PageNotFoundComponent,
-    HeroFilterComponent,
-    HeroDetailComponent,
     AboutComponent
   ],
   imports: [
@@ -41,12 +29,10 @@ import { AboutComponent } from './about/about.component';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+    HeroesModule,
     AppRoutingModule
   ],
-  providers: [
-    HeroService,
-    WindowService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
