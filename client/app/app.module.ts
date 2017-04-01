@@ -6,19 +6,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { CoreModule } from './core';
 import { HeroesModule } from './heroes';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ToolbarComponent } from './toolbar/toolbar.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ToolbarComponent,
-    PageNotFoundComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +24,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+    CoreModule,
     HeroesModule,
     AppRoutingModule
   ],
