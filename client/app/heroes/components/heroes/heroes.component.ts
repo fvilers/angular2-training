@@ -5,9 +5,9 @@ import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/catch';
 
 import { HeroFilter } from '../hero-filter/hero-filter.component';
-import { HeroService } from '../hero.service';
-import { WindowService } from '../window.service';
-import { Hero } from '../hero';
+import { HeroService } from '../../services';
+import { WindowService } from '../../../core';
+import { Hero } from '../../models';
 
 @Component({
   selector: 'app-heroes',
@@ -22,7 +22,7 @@ export class HeroesComponent implements OnInit, AfterViewInit {
   constructor(private heroService: HeroService, private windowService: WindowService) {
   }
 
-  @HostListener('window:scroll', ['$event']) 
+  @HostListener('window:scroll', ['$event'])
     trackPosition(event) {
       this.canMoveToTop =  document.body.scrollTop > 0;
     }

@@ -1,6 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
-import { HeroUniverse, HeroRole } from '../hero';
+import { HeroUniverse, HeroRole } from '../../models';
 
 @Component({
   selector: 'app-hero-filter',
@@ -9,7 +9,7 @@ import { HeroUniverse, HeroRole } from '../hero';
 })
 export class HeroFilterComponent implements OnInit {
   @Output() changed = new EventEmitter<HeroFilter>();
-  universes: number[]; 
+  universes: number[];
   roles: number[];
   filter: HeroFilter = new HeroFilter();
 

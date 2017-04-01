@@ -4,7 +4,7 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
 
-import { Hero, HeroUniverse, HeroRole } from './hero';
+import { Hero, HeroUniverse, HeroRole } from '../models';
 
 @Injectable()
 export class HeroService {
@@ -49,4 +49,4 @@ export class HeroService {
 
     return Promise.reject(error.message || error);
   }
-} 
+}
