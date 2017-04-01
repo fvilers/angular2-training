@@ -1,10 +1,10 @@
-<div [class.dark]="isDark">
+<div [class.inverse]="inverted">
   <md-toolbar color="primary">
     <h2 class="headline">The Nexus</h2>
     <span class="filler"></span>
     <a md-button [routerLink]="['/heroes']">Heroes</a>
     <a md-button [routerLink]="['/about']">About</a>
-    <button md-raised-button (click)="isDark = !isDark">Switch Theme</button>
+    <button md-raised-button (click)="inverted = !inverted">Inverse Theme</button>
   </md-toolbar>
 
   <main>
