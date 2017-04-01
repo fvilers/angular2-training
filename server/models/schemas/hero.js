@@ -30,6 +30,4 @@ const schema = new mongoose.Schema({
   }
 }, Object.assign(options, { collection: 'heroes' }));
 
-schema.plugin(require('mongoose-slug-hero'), { doc: 'filter', field: 'name' });
-
 module.exports = schema;
