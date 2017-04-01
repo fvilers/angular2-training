@@ -261,7 +261,7 @@
     "universe": 2,
     "description": "The Lord of Sin rules over a densely populated land of hell where both the greatest joys and despair, and the deepest depravities can be experienced. But it is never enough for Azmodan, who has set his eyes on the realm of Sanctuary.",
     "roles": [3],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/azmodan_lordOfSin.jpg"
+    "image": "http://media.blizzard.com/heroes/azmodan/skins/thumbnails/lord-of-sin.jpg"
   },
   {
     "name": "Chen",
@@ -341,7 +341,7 @@
     "universe": 2,
     "description": "Known in the ancient tongue as Al'Diabolos, the Prime Evil of Terror, the demon lord Diablo seeks to claim the world of Sanctuary for the Burning Hells. As the Lord of Terror, Diablo thrives on the fear of others, only satiated by the horror of those who fall before him. His victims are innumerable, his schemes are unknowable, and his gender is...malleable.",
     "roles": [1],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/diablo_lordOfTerror.jpg"
+    "image": "http://media.blizzard.com/heroes/diablo/skins/thumbnails/lord-of-terror.jpg"
   },
   {
     "name": "E.T.C.",
@@ -349,7 +349,7 @@
     "universe": 0,
     "description": "The Power of the Horde incarnated by brutal rhythms and blistering guitar riffs into the most elite tauren chieftain to ever headbang across the surface of Azeroth. Don't bother putting on socks. He's just going to rock them off anyways.",
     "roles": [1],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/etc_rockGod.jpg"
+    "image": "http://media.blizzard.com/heroes/etc/skins/thumbnails/rock-god.jpg"
   },
   {
     "name": "Falstad",
@@ -357,7 +357,7 @@
     "universe": 0,
     "description": "Falstad is the High Thane of the Wildhammer Clan and a founding member of the Council of Three Hammers that presides over Ironforge. Despite speculation, Falstad has never been dead and anyone who claims such is a liar.",
     "roles": [0],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/falstad_wildhammerThane.jpg"
+    "image": "http://media.blizzard.com/heroes/falstad/skins/thumbnails/wildhammer-thane.jpg"
   },
   {
     "name": "Gazlowe",
@@ -365,7 +365,7 @@
     "universe": 0,
     "description": "Upon first glance, few would think of the diminutive Gazlowe as a fighter, but what he lacks in height, he more than makes up for in mechanical cunning. The newest mechanical exoskeleton he's been working on for example is an especially effective war machine—when it's working.",
     "roles": [3],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/gazlowe_bossOfRatchet.jpg"
+    "image": "http://media.blizzard.com/heroes/gazlowe/skins/thumbnails/boss-of-ratchet.jpg"
   },
   {
     "name": "Illidan",
@@ -373,7 +373,7 @@
     "universe": 0,
     "description": "Illidan Stormrage, the original Demon Hunter, betrayed his people by creating a new Well of Eternity after the demonic invasion of Azeroth. After 10,000 years of imprisonment he was freed by Tyrande Whisperwind against his own brother Malfurion Stormrage's wishes. Now, Illidan lords over the realm of Outland, slaughtering unsuitably prepared heroes who venture into his domain.",
     "roles": [0],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/illidan_theBetrayer.jpg"
+    "image": "http://media.blizzard.com/heroes/illidan/skins/thumbnails/the-betrayer.jpg"
   },
   {
     "name": "Kerrigan",
@@ -381,7 +381,7 @@
     "universe": 1,
     "description": "Once a Terran ghost with unprecedented psionic abilities, Sarah Kerrigan was betrayed by her allies and transformed by the ravenous zerg into the indomitable Queen of Blades. Now freed of The Dark God Amon's corruption, Kerrigan faces a threat that could destroy the galaxy itself.",
     "roles": [0],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/kerrigan_queenOfBlades.jpg"
+    "image": "http://media.blizzard.com/heroes/kerrigan/skins/thumbnails/queen-of-blades.jpg"
   },
   {
     "name": "Malfurion",
@@ -389,7 +389,7 @@
     "universe": 0,
     "description": "Malfurion Stormrage is the greatest druid on Azeroth and the chosen student of his Shan'do, the demigod Cenarius. Communing with nature through the Emerald Dream, Malfurion protects the wilds from both demonic influences and the savage Horde. His only weakness? A penchant for taking long, long, 1,000-years-long naps.",
     "roles": [2],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/malfurion_archdruid.jpg"
+    "image": "http://media.blizzard.com/heroes/malfurion/skins/thumbnails/archdruid.jpg"
   },
   {
     "name": "Muradin",
@@ -397,7 +397,7 @@
     "universe": 0,
     "description": "Once a mentor to Prince Arthas, Muradin was unable to prevent him from becoming the Lich King. After recovering from a mild case of amnesia, he is now the leader of the Bronzebeard clan since the \"diamond-ization\" of his brother, King Magni.",
     "roles": [1],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/muradin_mountainKing.jpg"
+    "image": "http://media.blizzard.com/heroes/muradin/skins/thumbnails/mountain-king.jpg"
   },
   {
     "name": "Nazeebo",
@@ -405,7 +405,7 @@
     "universe": 2,
     "description": "With cabalistic incantations and vestments of feather and bone, the heretic Witch Doctor Nazeebo of the Umbaru tribe calls upon spirits from the Unformed Land to aid him in battle. Few outlanders ever encounter a Witch Doctor in the flesh, without losing their own.",
     "roles": [3],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/nazeebo_hereticWitchDoctor.jpg"
+    "image": "http://media.blizzard.com/heroes/nazeebo/skins/thumbnails/heretic-witch-doctor.jpg"
   },
   {
     "name": "Nova",
@@ -413,7 +413,7 @@
     "universe": 1,
     "description": "November \"Nova\" Terra is a ghost of the Terran Dominion and one of the most powerful psionic soldiers ever known. Nova is highly focused, determined, and extremely deadly. Even Jim Raynor wouldn't want to be caught within her crosshairs.",
     "roles": [0],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/nova_dominionGhost.jpg"
+    "image": "http://media.blizzard.com/heroes/nova/skins/thumbnails/dominion-ghost.jpg"
   },
   {
     "name": "Raynor",
@@ -421,7 +421,7 @@
     "universe": 1,
     "description": "Ex-confederate marshal James Raynor has stood against whatever the universe can throw at him and survived with just a few scars and a penchant for Scotty Bolger's whiskey. He now stands as a bright beacon of hope in the face of a corrupt government, enigmatic protoss, and ferocious all-consuming zerg...No wonder the man drinks.",
     "roles": [0],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/raynor_renegadeCommander.jpg"
+    "image": "http://media.blizzard.com/heroes/raynor/skins/thumbnails/renegade-commander.jpg"
   },
   {
     "name": "Sgt. Hammer",
@@ -429,7 +429,7 @@
     "universe": 1,
     "description": "Sergeant Bama \"the Hammer\" Kowalski has served some of the toughest tours around the Koprulu sector. The roar of her siege tank's shock cannon strikes fear right into the heart of the toughest of warriors... including some of her allies.",
     "roles": [3],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/sgt-hammer_siegeTankOperator.jpg"
+    "image": "http://media.blizzard.com/heroes/sgt-hammer/skins/thumbnails/siege-tank-operator.jpg"
   },
   {
     "name": "Sonya",
@@ -437,7 +437,7 @@
     "universe": 2,
     "description": "From the frozen Dreadlands of the north come the mighty Barbarian warriors. After surviving the destruction of her home and death of her tribe, Sonya wanders Sanctuary in search of battle and a better life for her people.",
     "roles": [1],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/sonya_wanderingBarbarian.jpg"
+    "image": "http://media.blizzard.com/heroes/sonya/skins/thumbnails/wandering-barbarian.jpg"
   },
   {
     "name": "Stitches",
@@ -445,7 +445,7 @@
     "universe": 0,
     "description": "Take care when traversing the shadowed trails of Duskwood...ever since Abercrombie the Embalmer unleashed his abomination upon Darkshire, Stitches has wandered the road aimlessly, hungering for the flesh of low level Alliance players.",
     "roles": [1],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/stitches_terrorOfDarkshire.jpg"
+    "image": "http://media.blizzard.com/heroes/stitches/skins/thumbnails/terror-of-darkshire.jpg"
   },
   {
     "name": "Tassadar",
@@ -453,7 +453,7 @@
     "universe": 1,
     "description": "An executor without equal, Tassadar stood against the orders of the conclave, uniting with the Dark Templar, and fought valiantly to save Aiur from the zerg. Channeling the Khala and the Void, he destroyed the Overmind at the cost of his own life. In the glory of combat, protoss warriors forever invoke his name: “En Taro, Tassadar!”",
     "roles": [2],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tassadar_saviorOfTheTemplar.jpg"
+    "image": "http://media.blizzard.com/heroes/tassadar/skins/thumbnails/savior-of-the-templar.jpg"
   },
   {
     "name": "Tyrael",
@@ -461,7 +461,7 @@
     "universe": 2,
     "description": "Among the angels it is the Archangel of Justice Tyrael who is humanity's greatest defender. Wielding his sword El'druin against the Burning Hells, the Prime Evils would have enslaved Sanctuary and all of humanity long ago if Tyrael had not intervened.",
     "roles": [1],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tyrael_archangelOfJustice.jpg"
+    "image": "http://media.blizzard.com/heroes/tyrael/skins/thumbnails/archangel-of-justice.jpg"
   },
   {
     "name": "Tyrande",
@@ -469,7 +469,7 @@
     "universe": 0,
     "description": "Tyrande Whisperwind strikes fear into all who wish ill of the Kaldorei. As the highest ranking Sentinel and High Priestess of Elune, she is not only the Night Elves' most deadly warrior, but also their most cunning leader.",
     "roles": [2],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/tyrande_highPriestessOfElune.jpg"
+    "image": "http://media.blizzard.com/heroes/tyrande/skins/thumbnails/high-priestess-of-elune.jpg"
   },
   {
     "name": "Uther",
@@ -477,7 +477,7 @@
     "universe": 0,
     "description": "The first paladin and founder of the Order of the Silver Hand, Uther the Lightbringer is a faithful servant of the Light. Dispensing justice with the swing of his hammer, Uther is a bastion of truth and an unflinching symbol of the Alliance.",
     "roles": [2],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/uther_theLightbringer.jpg"
+    "image": "http://media.blizzard.com/heroes/uther/skins/thumbnails/the-lightbringer.jpg"
   },
   {
     "name": "Valla",
@@ -485,7 +485,7 @@
     "universe": 2,
     "description": "Valla witnessed the ferocity of hellspawn firsthand as the demons ravaged her village and left her for dead. Now, with no people to call her own, her only allegiance is to her cause: to rid Sanctuary of the demonic filth corrupting its lands. She also likes long walks on the beach, puppies, and crossbows.",
     "roles": [0],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/valla_demonHunter.jpg"
+    "image": "http://media.blizzard.com/heroes/valla/skins/thumbnails/demon-hunter.jpg"
   },
   {
     "name": "Zeratul",
@@ -493,6 +493,22 @@
     "universe": 1,
     "description": "The enigmatic Dark Templar Zeratul serves the Xel'Naga. While he expertly wields the power of the Void, it is his wisdom that earns him the respect of the Koprulu sector's leaders - despite his penchant for dramatic entrances.",
     "roles": [0],
-    "image": "http://us.battle.net/heroes/static/images/heroes/skins/thumbnails/zeratul_darkPrelate.jpg"
+    "image": "http://media.blizzard.com/heroes/zeratul/skins/thumbnails/dark-prelate.jpg"
+  },
+  {
+    "name": "Probius",
+    "title": "Curious Prob",
+    "universe": 1,
+    "description": "Since his activation, Probius has always wanted to prove himself. He may be small, but he made a big difference by warping in a critical pylon during the retaking of Aiur. As the bravest of probes, Probius is eager to fulfill his purpose in the Nexus.",
+    "roles": [3],
+    "image": "http://media.blizzard.com/heroes/probius/skins/thumbnails/curious-probe.jpg"
+  },
+  {
+    "name": "Cassia",
+    "title": "Amazon Warmatron",
+    "universe": 2,
+    "description": "After shattering the Worldstone, the young Amazon Cassia had changed. She had seen hatred, terror, and destruction firsthand. If the Askari were to survive the coming darkness, they needed an army. She would begin their training immediately.",
+    "roles": [0],
+    "image": "http://media.blizzard.com/heroes/cassia/skins/thumbnails/amazon-warmatron.jpg"
   }
 ]
