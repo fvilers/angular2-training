@@ -2,7 +2,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
+import { MaterialModule } from '@angular/material';
 
+import { RouterLinkStubDirective } from '../../testing';
 import { ToolbarComponent } from './toolbar.component';
 
 describe('ToolbarComponent', () => {
@@ -11,9 +13,13 @@ describe('ToolbarComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ToolbarComponent ]
+      declarations: [
+        RouterLinkStubDirective,
+        ToolbarComponent
+      ],
+      imports: [MaterialModule]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
