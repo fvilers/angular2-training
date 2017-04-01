@@ -8,6 +8,15 @@ function findHeroes (req, res, next) {
   const query = {
     name: { $regex: regexp }
   }
+
+  if (req.query.universe || req.query.universe === 0) {
+    query.universe = req.query.universe;
+  }
+
+  if (req.query.role || req.query.role === 0) {
+    query.roles = { $in: [ req.query.role ] };
+  }
+
   Hero.find(query)
     .then(sendResponse)
     .catch(next)

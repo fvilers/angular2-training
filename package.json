@@ -6,6 +6,7 @@
     "ng": "ng",
     "start": "node ./bin/www",
     "dev": "concurrently \"nodemon npm start\" \"ng build -w\"",
+    "dev-server": "nodemon npm start",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
