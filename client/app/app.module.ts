@@ -7,20 +7,19 @@ import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import { AboutModule } from './about';
 import { HeroesModule } from './heroes';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     PageNotFoundComponent,
-    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +28,7 @@ import { AboutComponent } from './about/about.component';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+    AboutModule,
     HeroesModule,
     AppRoutingModule
   ],
