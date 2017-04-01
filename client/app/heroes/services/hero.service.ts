@@ -3,36 +3,21 @@ import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
+import { environment } from '../../../environments/environment';
 
 import { Hero, HeroUniverse, HeroRole } from '../models';
 
 @Injectable()
 export class HeroService {
-  private url = 'assets/heroes.json';
+  private url = `${environment.backend.url}/heroes`;
 
   constructor(private http: Http) {
   }
 
   searchHeroes(universe: HeroUniverse, role: HeroRole, terms: string): Observable<Hero[]> {
-    const regexp = new RegExp(terms, 'i');
-
     return this.http
-      .get(this.url)
-      .map(response => {
-        const heroes = response.json() as Hero[];
-
-        return heroes
-          .filter(hero =>
-            (universe === undefined || hero.universe === universe)
-            && (role === undefined || hero.roles.indexOf(role) !== -1)
-            && (!terms || hero.name.match(regexp) || hero.title.match(regexp))
-          )
-          .sort((a, b) => {
-            if (a.name < b.name) return -1;
-            if (a.name > b.name) return 1;
-            return 0;
-          })
-      });
+      .get(`${this.url}?terms=${encodeURI(terms || '')}`)
+      .map(response => response.json() as Hero[]);
   }
 
   getHero(name: string): Promise<Hero> {

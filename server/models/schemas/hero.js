@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const options = require('./default-options');
 const schema = new mongoose.Schema({
   name: {
-    index: true,
     required: true,
     type: String,
     unique: true
@@ -26,6 +25,9 @@ const schema = new mongoose.Schema({
     type: String,
     required: true
   },
+  description: {
+    type: String
+  }
 }, Object.assign(options, { collection: 'heroes' }));
 
 schema.plugin(require('mongoose-slug-hero'), { doc: 'filter', field: 'name' });

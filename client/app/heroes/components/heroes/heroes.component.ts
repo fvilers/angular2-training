@@ -1,8 +1,10 @@
 import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { Subject } from 'rxjs/Subject'
+import { Subject } from 'rxjs/Subject';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/catch';
+import 'rxjs/add/operator/debounceTime';
+import 'rxjs/add/operator/distinctUntilChanged';
 
 import { HeroFilter } from '../hero-filter/hero-filter.component';
 import { HeroService } from '../../services';
@@ -16,6 +18,7 @@ import { Hero } from '../../models';
 })
 export class HeroesComponent implements OnInit, AfterViewInit {
   heroes: Observable<Hero[]>;
+  count = 0;
   canMoveToTop = false;
   private filter = new Subject<HeroFilter>();
 
@@ -29,6 +32,8 @@ export class HeroesComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {
     this.heroes = this.filter
+      .debounceTime(300)
+      .distinctUntilChanged(HeroFilter.compare)
       .switchMap(filter => filter
         ? this.heroService.searchHeroes(filter.universe, filter.role, filter.terms)
         : Observable.of<Hero[]>([]))
@@ -37,6 +42,7 @@ export class HeroesComponent implements OnInit, AfterViewInit {
         console.log(error);
         return Observable.of<Hero[]>([]);
       });
+    this.heroes.subscribe(heroes => this.count = heroes ? heroes.length : 0);
   }
 
   ngAfterViewInit() {

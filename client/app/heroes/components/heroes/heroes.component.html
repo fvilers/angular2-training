@@ -1,13 +1,13 @@
-<h1 class="headline">Heroes</h1>
+<h1 class="headline" [ngPlural]="count">
+  <ng-template ngPluralCase="=0">No heroes</ng-template>
+  <ng-template ngPluralCase="=1">One hero</ng-template>
+  <ng-template ngPluralCase="other">{{count}} heroes</ng-template>
+</h1>
 
 <app-hero-filter (changed)="filterHeroes($event)"></app-hero-filter>
 
 <div class="flex-container" fxLayout="row" fxLayoutWrap="wrap">
   <app-hero-card *ngFor="let hero of heroes | async" [hero]="hero" class="flex-item"></app-hero-card>
-</div>
-
-<div>
-  {{(heroes | async)?.length}} hero{{(heroes | async)?.length < 2 ? '' : 'es'}} found.
 </div>
 
 <span class="move-up-action" [style.display]="canMoveToTop ? 'inline-block' : 'none'">
