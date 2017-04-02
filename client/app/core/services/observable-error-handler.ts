@@ -11,6 +11,7 @@ export class ObservableErrorHandler implements ErrorHandler {
 
   handleError(error) {
     if (error) {
+      console.error(error);
       this.subject.next(error);
     }
   }
