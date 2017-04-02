@@ -65,9 +65,9 @@ md-toolbar {
   text-transform: uppercase;
 }
 
-.inverse {
+.dark {
   $dark-app-primary: mat-palette($mat-deep-purple);
-  $dark-app-accent: mat-palette($mat-indigo);
+  $dark-app-accent: mat-palette($mat-cyan);
   $dark-app-warn: mat-palette($mat-red);
   $dark-app-theme: mat-dark-theme($dark-app-primary, $dark-app-accent, $dark-app-warn);
   @include angular-material-theme($dark-app-theme);

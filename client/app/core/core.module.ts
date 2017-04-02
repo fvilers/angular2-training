@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
 import { PageNotFoundComponent } from './components';
 import { RouterLinkStubDirective, RouterOutletStubComponent } from './testing';
-import { ErrorSubject, ObservableErrorHandler, WindowService } from './services';
+import { DocumentService, ErrorSubject, ObservableErrorHandler, WindowService } from './services';
 
 @NgModule({
   imports: [
@@ -28,6 +28,7 @@ import { ErrorSubject, ObservableErrorHandler, WindowService } from './services'
         useClass: ObservableErrorHandler
     },
     ErrorSubject,
+    DocumentService,
     WindowService
   ]
 })

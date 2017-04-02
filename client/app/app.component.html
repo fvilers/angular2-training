@@ -1,13 +1,11 @@
-<div [class.inverse]="inverted">
-  <md-toolbar color="primary">
-    <h2 class="headline">{{title}}</h2>
-    <span class="filler"></span>
-    <a md-button [routerLink]="['/heroes']">Heroes</a>
-    <a md-button [routerLink]="['/about']">About</a>
-    <button md-raised-button (click)="inverted = !inverted">Inverse Theme</button>
-  </md-toolbar>
+<md-toolbar color="primary">
+  <h2 class="headline">{{title}}</h2>
+  <span class="filler"></span>
+  <a md-button [routerLink]="['/heroes']">Heroes</a>
+  <a md-button [routerLink]="['/about']">About</a>
+  <button md-raised-button (click)="toggleTheme()">Toggle Theme</button>
+</md-toolbar>
 
-  <main>
-    <router-outlet></router-outlet>
-  </main>
-</div>
+<main>
+  <router-outlet></router-outlet>
+</main>
