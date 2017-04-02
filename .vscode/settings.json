@@ -4,5 +4,6 @@
     "tmp": true,
     "node_modules": true,
     "npm-debug.log*": true
-  }
+  },
+  "vsicons.presets.angular": true
 }
