@@ -8,7 +8,7 @@ import { Hero, HeroUniverse, HeroRole } from '../models';
 @Injectable()
 export class HeroServiceMock extends HeroService {
 
-  private datUrl = 'assets/heroes.json';
+  private dataUrl = 'assets/heroes.json';
 
   constructor(private httpClient: Http) {
     super(httpClient);
@@ -18,7 +18,7 @@ export class HeroServiceMock extends HeroService {
     const regexp = new RegExp(terms, 'i');
 
     return this.httpClient
-      .get(this.datUrl)
+      .get(this.dataUrl)
       .map(response => {
         const heroes = response.json() as Hero[];
 
@@ -37,7 +37,7 @@ export class HeroServiceMock extends HeroService {
   }
 
   getHero(name: string): Promise<Hero> {
-    return this.httpClient.get(this.datUrl)
+    return this.httpClient.get(this.dataUrl)
       .toPromise()
       .then(response => response.json() as Hero[])
       .then(heroes => heroes.filter(hero => hero.name === name).pop());
