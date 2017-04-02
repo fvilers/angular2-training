@@ -66,12 +66,12 @@ md-toolbar {
 }
 
 .dark {
-  $dark-app-primary: mat-palette($mat-deep-purple);
-  $dark-app-accent: mat-palette($mat-cyan);
-  $dark-app-warn: mat-palette($mat-red);
-  $dark-app-theme: mat-dark-theme($dark-app-primary, $dark-app-accent, $dark-app-warn);
-  @include angular-material-theme($dark-app-theme);
+  @import 'dark-theme.scss';
 
   background: rgb(33, 33, 33);
   color: rgba(255, 255, 255, 1);
+
+  a {
+    color: rgba(255, 255, 255, 0.70);
+  }
 }
