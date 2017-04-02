@@ -1,4 +1,10 @@
 <md-card class="filter">
+  <md-card-title [ngPlural]="count">
+    <ng-template ngPluralCase="=0">No heroes found</ng-template>
+    <ng-template ngPluralCase="=1">One hero found</ng-template>
+    <ng-template ngPluralCase="other">{{count}} heroes found</ng-template>
+  </md-card-title>
+
   <md-card-content>
     <md-select placeholder="Role" [(ngModel)]="filter.role" (change)="notifyChange()">
       <md-option>All</md-option>

@@ -1,10 +1,4 @@
-<h1 class="headline" [ngPlural]="count">
-  <ng-template ngPluralCase="=0">No heroes</ng-template>
-  <ng-template ngPluralCase="=1">One hero</ng-template>
-  <ng-template ngPluralCase="other">{{count}} heroes</ng-template>
-</h1>
-
-<app-hero-filter (changed)="filterHeroes($event)"></app-hero-filter>
+<app-hero-filter [count]="count" (changed)="filterHeroes($event)"></app-hero-filter>
 
 <div class="flex-container flex-row flex-wrap">
   <app-hero-card *ngFor="let hero of heroes | async" [hero]="hero"></app-hero-card>

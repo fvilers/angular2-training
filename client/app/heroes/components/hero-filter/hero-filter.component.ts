@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 import { HeroUniverse, HeroRole, HeroFilter } from '../../models';
 
@@ -8,6 +8,7 @@ import { HeroUniverse, HeroRole, HeroFilter } from '../../models';
   styleUrls: ['./hero-filter.component.scss']
 })
 export class HeroFilterComponent implements OnInit {
+  @Input() count = 0;
   @Output() changed = new EventEmitter<HeroFilter>();
   universes: number[];
   roles: number[];
