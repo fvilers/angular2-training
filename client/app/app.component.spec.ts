@@ -1,7 +1,7 @@
 /* tslint:disable:no-unused-variable */
 import { MaterialModule } from '@angular/material';
 import { TestBed, async } from '@angular/core/testing';
-import { RouterLinkStubDirective, RouterOutletStubComponent } from './core';
+import { DocumentService, ErrorSubject, RouterLinkStubDirective, RouterOutletStubComponent } from './core';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
@@ -12,7 +12,8 @@ describe('AppComponent', () => {
         RouterLinkStubDirective,
         RouterOutletStubComponent
       ],
-      imports: [MaterialModule]
+      imports: [MaterialModule],
+      providers: [DocumentService, ErrorSubject]
     });
     TestBed.compileComponents();
   });
