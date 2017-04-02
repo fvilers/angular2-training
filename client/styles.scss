@@ -22,6 +22,8 @@ $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-
 // that you are using.
 @include angular-material-theme($candy-app-theme);
 
+@import 'flex.scss';
+
 html {
   line-height: 1.4;
 }

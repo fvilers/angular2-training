@@ -6,8 +6,8 @@
 
 <app-hero-filter (changed)="filterHeroes($event)"></app-hero-filter>
 
-<div class="flex-container" fxLayout="row" fxLayoutWrap="wrap">
-  <app-hero-card *ngFor="let hero of heroes | async" [hero]="hero" class="flex-item"></app-hero-card>
+<div class="flex-container flex-row flex-wrap">
+  <app-hero-card *ngFor="let hero of heroes | async" [hero]="hero"></app-hero-card>
 </div>
 
 <span class="move-up-action" [style.display]="canMoveToTop ? 'inline-block' : 'none'">

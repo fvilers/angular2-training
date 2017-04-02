@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { CoreModule } from './core';
 import { HeroesModule } from './heroes';
 
@@ -23,7 +22,6 @@ import { AppComponent } from './app.component';
     HttpModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule,
     CoreModule,
     HeroesModule,
     AppRoutingModule
