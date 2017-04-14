@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/platform-browser';
 import { MdSnackBar, MdSnackBarConfig } from '@angular/material';
 
-import { DocumentService, ErrorSubject } from './core/services';
+import { ErrorSubject } from './core/services';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,7 @@ import { DocumentService, ErrorSubject } from './core/services';
 export class AppComponent {
   title = 'The Nexus';
 
-  constructor(errorSubject: ErrorSubject, snackBar: MdSnackBar, private documentService: DocumentService) {
+  constructor(errorSubject: ErrorSubject, snackBar: MdSnackBar, @Inject(DOCUMENT) private document) {
     const snackBarDefaultConfig = new MdSnackBarConfig();
     snackBarDefaultConfig.duration = 1500;
 
@@ -21,6 +22,6 @@ export class AppComponent {
   }
 
   toggleTheme() {
-    this.documentService.querySelector('body').classList.toggle('dark');
+    this.document.querySelector('body').classList.toggle('dark');
   }
 }
