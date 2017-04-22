@@ -12,15 +12,10 @@ import { Hero } from '../../models';
 export class HeroDetailComponent implements OnInit {
   hero: Hero;
 
-  constructor(
-    private heroService : HeroService,
-    private route: ActivatedRoute
-  ) {
+  constructor(private route: ActivatedRoute) {
   }
 
   ngOnInit() {
-    this.route.params
-      .switchMap((params: Params) => this.heroService.getHero(params['name']))
-      .subscribe(hero => this.hero = hero);
+    this.hero = this.route.snapshot.data['hero'];
   }
 }
