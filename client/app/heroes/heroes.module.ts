@@ -9,7 +9,7 @@ import { environment } from '../../environments/environment';
 
 import { HeroCardComponent, HeroDetailComponent, HeroesComponent, HeroFilterComponent } from './components';
 import { HeroRolePipe, HeroUniversePipe } from './pipes';
-import { HeroService, HeroServiceMock } from './services';
+import { HeroService, HeroServiceMock, HeroResolverService } from './services';
 
 @NgModule({
   imports: [
@@ -31,6 +31,8 @@ import { HeroService, HeroServiceMock } from './services';
   providers: [{
       provide: HeroService,
       useClass: environment.test.useMocks ? HeroServiceMock : HeroService
-  }],
+    },
+    HeroResolverService
+  ],
 })
 export class HeroesModule { }

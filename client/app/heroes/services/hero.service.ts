@@ -16,15 +16,25 @@ export class HeroService {
 
   searchHeroes(universe: HeroUniverse, role: HeroRole, terms: string): Observable<Hero[]> {
     const query = this.querystring({ universe, role, terms });
+
     return this.http
       .get(`${this.url}?${query}`)
-      .map(response => response.json() as Hero[]);
+      .map(response => response.json() as Hero[])
+      .catch(this.handleError);
   }
 
   getHero(name: string): Promise<Hero> {
     return this.http.get(`${this.url}/${name}`)
       .toPromise()
-      .then(response => response.json() as Hero);
+      .then(response => response.json() as Hero)
+      .catch(this.handleError);
+  }
+
+  private handleError(error: Response) {
+    console.error(error);
+    const msg = `Error status code ${error.status} at ${error.url}`;
+
+    return Observable.throw(msg);
   }
 
   private querystring(query) {
