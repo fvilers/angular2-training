@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HeroDetailComponent, HeroesComponent } from './components';
+import { HeroResolverService } from './services';
 
 const routes: Routes = [
   {
@@ -10,7 +11,10 @@ const routes: Routes = [
   },
   {
     path: 'heroes/:name',
-    component: HeroDetailComponent
+    component: HeroDetailComponent,
+    resolve: {
+      hero: HeroResolverService
+    }
   }
 ];
 
