@@ -22,7 +22,7 @@ describe('HeroesComponent', () => {
   beforeEach(async(() => {
 
     // stub Hero Service for test purposes
-    let heroServiceStub = {
+    const heroServiceStub = {
       searchHeroes: function (p1: any, p2: any, p3: any) {
         return new Observable<Hero[]>(); }
     };

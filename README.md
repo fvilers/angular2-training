@@ -6,6 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+This application use a dedicated back-end application. Ensure to run `npm start` trying to fetch data. The back-end server runs on `http://localhost:3000/`
+
+## Database seeding
+You should run `node ./tools/import` to seed your database with some heroes.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.

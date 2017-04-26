@@ -8,7 +8,7 @@ const morgan = require('morgan');
 const path = require('path');
 const mongoose = require('mongoose');
 const configuration = require('./configuration');
-const www = path.join(__dirname, '../dist');
+const www = path.join(__dirname, '..', 'dist');
 const app = express();
 
 // Middlewares
