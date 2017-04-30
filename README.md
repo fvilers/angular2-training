@@ -9,7 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 This application use a dedicated back-end application. Ensure to run `npm start` before trying to fetch data. The back-end server runs on `http://localhost:3000/`
 
 ## Database seeding
-You should run `node ./tools/import` to seed your database with some heroes.
+You should run `node run seed` to seed your database with some heroes.
 
 ## Code scaffolding
 
