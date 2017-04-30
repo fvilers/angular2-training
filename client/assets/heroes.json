@@ -1,5 +1,13 @@
 [
   {
+    "name": "Genji",
+    "title": "Cybernetic Ninja",
+    "universe": 4,
+    "description": "Once the carefree youngest scion of the Shimada clan, Genji was cut down by his own brother for refusing to take part in their illegal ventures. Grafted into a cyborg body by Overwatch, Genji walks his own path as one who fights for what's right.",
+    "roles": [0],
+    "image": "http://media.blizzard.com/heroes/genji/skins/thumbnails/cybernetic-ninja.jpg"
+  },
+  {
     "name": "Lúcio",
     "title": "Freedom Fighting DJ",
     "universe": 4,
