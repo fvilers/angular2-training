@@ -29,6 +29,10 @@
         </div>
       </div>
 
+      <div *ngIf="errorMessage" class="error">
+        {{errorMessage}}
+      </div>
+
       <div>
         <button type="submit" md-raised-button color="primary" [disabled]="!registerForm.form.valid">Register</button>
       </div>

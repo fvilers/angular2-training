@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
+import { Account } from '../../models';
+import { AccountService } from '../../services';
 
 @Component({
   selector: 'app-register',
@@ -6,5 +10,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent {
-  public account = {};
+  public account = new Account();
+  public errorMessage: string;
+
+  constructor(private service: AccountService, private router: Router) {
+  }
+
+  register() {
+    this.service
+      .register(this.account.email, this.account.password)
+      .then(() => this.router.navigate(['/']))
+      .catch(() => this.errorMessage = `We're sorry, but an unexpected error occurred.`)
+    ;
+  }
 }
