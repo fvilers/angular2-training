@@ -1,9 +1,10 @@
 <md-toolbar color="primary">
   <h2 class="headline">{{title}}</h2>
-  <span class="filler"></span>
   <a md-button [routerLink]="['/heroes']">Heroes</a>
   <a md-button [routerLink]="['/about']">About</a>
-  <button md-raised-button (click)="toggleTheme()">Toggle Theme</button>
+  <button md-button (click)="toggleTheme()">Toggle Theme</button>
+  <span class="filler"></span>
+  <a md-raised-button [routerLink]="['accounts', 'register']">Register</a>
 </md-toolbar>
 
 <main>
