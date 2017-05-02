@@ -11,6 +11,7 @@ import { AccountService } from '../../services';
 })
 export class RegisterComponent {
   public account = new Account();
+  public passwordConfirmation2: string;
   public errorMessage: string;
 
   constructor(private service: AccountService, private router: Router) {
