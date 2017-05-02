@@ -7,7 +7,7 @@
           <input type="email" id="email" name="email" placeholder="Email" required email [(ngModel)]="account.email" #email="ngModel" mdInput>
         </md-input-container>
 
-        <div *ngIf="email.errors && (email.dirty || email.touched)">
+        <div class="error" *ngIf="email.errors && (email.dirty || email.touched)">
           <div [hidden]="!email.errors.required">
             An email address is required.
           </div>
@@ -22,14 +22,14 @@
           <input type="password" name="password" placeholder="Password" required [(ngModel)]="account.password" #password="ngModel" mdInput>
         </md-input-container>
         
-        <div *ngIf="password.errors && (password.dirty || password.touched)">
+        <div class="error" *ngIf="password.errors && (password.dirty || password.touched)">
           <div [hidden]="!password.errors.required">
             A password is required.
           </div>
         </div>
       </div>
 
-      <div *ngIf="errorMessage" class="error">
+      <div class="error" *ngIf="errorMessage">
         {{errorMessage}}
       </div>
 
