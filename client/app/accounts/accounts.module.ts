@@ -5,6 +5,7 @@ import { MaterialModule } from '@angular/material';
 
 import { AccountsRoutingModule } from './accounts-routing.module';
 import { RegisterComponent } from './components';
+import { AccountService } from './services';
 
 @NgModule({
   imports: [
@@ -15,6 +16,9 @@ import { RegisterComponent } from './components';
   ],
   declarations: [
     RegisterComponent
+  ],
+  providers: [
+    AccountService
   ]
 })
 export class AccountsModule { }
