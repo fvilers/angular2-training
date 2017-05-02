@@ -21,7 +21,16 @@ export class RegisterComponent {
     this.service
       .register(this.account.email, this.account.password)
       .then(() => this.router.navigate(['/']))
-      .catch(() => this.errorMessage = `We're sorry, but an unexpected error occurred.`)
+      .catch(error => this.errorMessage = getErrorMessage(error.status))
     ;
+
+    function getErrorMessage(status) {
+      switch (status) {
+          case 409:
+            return 'This account already exists.';
+          default:
+            return `We're sorry, but an unexpected error occurred.`;
+        }
+    }
   }
 }
