@@ -1,3 +1,41 @@
-<p>
-  login works!
-</p>
+<md-card>
+  <md-card-title>Log in</md-card-title>
+  <md-card-content>
+    <form #loginForm="ngForm" (ngSubmit)="login()">
+      <div>
+        <md-input-container>
+          <input type="email" id="email" name="email" placeholder="Email" required email [(ngModel)]="account.email" #email="ngModel" mdInput>
+        </md-input-container>
+
+        <div class="error" *ngIf="email.errors && (email.dirty || email.touched)">
+          <div [hidden]="!email.errors.required">
+            An email address is required.
+          </div>
+          <div [hidden]="!email.errors.email">
+            This is email address is invalid.
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <md-input-container>
+          <input type="password" name="password" placeholder="Password" required [(ngModel)]="account.password" #password="ngModel" mdInput>
+        </md-input-container>
+        
+        <div class="error" *ngIf="password.errors && (password.dirty || password.touched)">
+          <div [hidden]="!password.errors.required">
+            A password is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="error" *ngIf="errorMessage">
+        {{errorMessage}}
+      </div>
+
+      <div>
+        <button type="submit" md-raised-button color="primary" [disabled]="!loginForm.form.valid">Log in</button>
+      </div>
+    </form>
+  </md-card-content>
+</md-card>
