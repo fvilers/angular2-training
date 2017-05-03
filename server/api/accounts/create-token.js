@@ -11,7 +11,7 @@ function createToken (req, res, next) {
     .then(compareHashes)
     .then(generateToken)
     .then(sendResponse)
-    .catch(next)
+    .catch(onError)
   ;
 
   function ensureAccount (account) {
@@ -43,6 +43,14 @@ function createToken (req, res, next) {
     };
 
     res.status(201).json(jwt);
+  }
+
+  function onError (err) {
+    if (err && err.name === 'MismatchError') {
+      return next(new createError.Forbidden(err));
+    }
+
+    next(err);
   }
 }
 
