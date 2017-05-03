@@ -3,6 +3,7 @@ import { DOCUMENT } from '@angular/platform-browser';
 import { MdSnackBar, MdSnackBarConfig } from '@angular/material';
 
 import { ErrorSubject } from './core/services';
+import { CurrentAccountService } from './accounts/services';
 
 @Component({
   selector: 'app-root',
@@ -10,18 +11,34 @@ import { ErrorSubject } from './core/services';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'The Nexus';
+  public title = 'The Nexus';
+  public token: string;
 
-  constructor(errorSubject: ErrorSubject, snackBar: MdSnackBar, @Inject(DOCUMENT) private document) {
+  constructor(
+    errorSubject: ErrorSubject,
+    snackBar: MdSnackBar,
+    @Inject(DOCUMENT) private document,
+    private currentAccount: CurrentAccountService
+  ) {
     const snackBarDefaultConfig = new MdSnackBarConfig();
     snackBarDefaultConfig.duration = 1500;
 
     errorSubject
       .getObservable()
-      .subscribe(x => snackBar.open('😿 We are sorry, but an error has occured.', null, snackBarDefaultConfig));
+      .subscribe(x => snackBar.open('😿 We are sorry, but an error has occured.', null, snackBarDefaultConfig))
+    ;
+
+    currentAccount
+      .get()
+      .subscribe(token => this.token = token)
+    ;
   }
 
   toggleTheme() {
     this.document.querySelector('body').classList.toggle('dark');
+  }
+
+  logOut() {
+    this.currentAccount.clear();
   }
 }
