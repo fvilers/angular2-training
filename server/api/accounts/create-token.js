@@ -11,7 +11,7 @@ function createToken (req, res, next) {
     .then(compareHashes)
     .then(generateToken)
     .then(sendResponse)
-    .catch(onError)
+    .catch(next)
   ;
 
   function ensureAccount (account) {
@@ -23,14 +23,16 @@ function createToken (req, res, next) {
   }
 
   function compareHashes (account) {
-    return bcrypt.compare(req.body.password, account.passwordHash);
+    return bcrypt.compare(req.body.password, account.passwordHash)
+      .then(() => account)
+      .catch(err => { throw new createError.Forbidden(err); })
+    ;
   }
 
   function generateToken (account) {
     const payload = {
       id: account.id,
-      email: account.email,
-      profile: account.profile,
+      email: account.email
     };
 
     return jwt.sign(payload, req.app.locals.configuration.jwt.secret, req.app.locals.configuration.jwt.options);
@@ -43,14 +45,6 @@ function createToken (req, res, next) {
     };
 
     res.status(201).json(jwt);
-  }
-
-  function onError (err) {
-    if (err && err.name === 'MismatchError') {
-      return next(new createError.Forbidden(err));
-    }
-
-    next(err);
   }
 }
 
