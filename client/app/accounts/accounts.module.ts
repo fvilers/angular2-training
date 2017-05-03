@@ -6,7 +6,7 @@ import { ComparisonModule } from 'angular-comparison';
 
 import { AccountsRoutingModule } from './accounts-routing.module';
 import { LoginComponent, RegisterComponent } from './components';
-import { AccountService } from './services';
+import { AccountService, CurrentAccountService } from './services';
 
 @NgModule({
   imports: [
@@ -21,7 +21,8 @@ import { AccountService } from './services';
     LoginComponent
   ],
   providers: [
-    AccountService
+    AccountService,
+    CurrentAccountService
   ]
 })
 export class AccountsModule { }
