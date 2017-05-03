@@ -12,6 +12,9 @@ const configuration = require('./configuration');
 const www = path.join(__dirname, '..', 'dist');
 const app = express();
 
+// Store configuration to Express app
+app.locals.configuration = configuration;
+
 // Middlewares
 app.use(cors(configuration.cors));
 app.use(compression());
