@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
+## Requirements
+
+The server side of this project use `bcrypt` to hash password of registered accounts. This package has some [dependencies](https://www.npmjs.com/package/bcrypt#dependencies) in order to be built. If you haven't already used node-gyp on your machine, you should follow this [guide](https://github.com/nodejs/node-gyp#installation).
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
