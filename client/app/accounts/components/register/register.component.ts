@@ -11,7 +11,6 @@ import { AccountService } from '../../services';
 })
 export class RegisterComponent {
   public account = new Account();
-  public passwordConfirmation2: string;
   public errorMessage: string;
 
   constructor(private service: AccountService, private router: Router) {
@@ -26,11 +25,11 @@ export class RegisterComponent {
 
     function getErrorMessage(status) {
       switch (status) {
-          case 409:
-            return 'This account already exists.';
-          default:
-            return `We're sorry, but an unexpected error occurred.`;
-        }
+        case 409:
+          return 'This account already exists.';
+        default:
+          return `We're sorry, but an unexpected error occurred.`;
+      }
     }
   }
 }

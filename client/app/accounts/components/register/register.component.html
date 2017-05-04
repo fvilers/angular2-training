@@ -31,7 +31,7 @@
 
       <div>
         <md-input-container>
-          <input type="password" name="passwordConfirmation" placeholder="Password confirmation" required [(ngModel)]="passwordConfirmation2" #passwordConfirmation="ngModel" [ngEqualTo]="account.password" mdInput>
+          <input type="password" name="passwordConfirmation" placeholder="Password confirmation" required ngModel #passwordConfirmation="ngModel" [ngEqualTo]="account.password" mdInput>
         </md-input-container>
         
         <div class="error" *ngIf="passwordConfirmation.errors && (passwordConfirmation.dirty || passwordConfirmation.touched)">
