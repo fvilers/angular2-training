@@ -3,7 +3,6 @@
 const express = require('express');
 const router = express.Router();
 
-router.use('/accounts', require('./accounts'));
-router.use('/heroes', require('./heroes'));
+router.post('/', require('./create'));
 
 module.exports = Object.freeze(router);
