@@ -20,6 +20,7 @@ app.use(bodyParser.json(configuration.json));
 app.use(bodyParser.urlencoded(configuration.urlencoded));
 app.use(morgan('dev'));
 app.use(express.static(www));
+app.use(require('prerender-node').set('prerenderToken', 'OeEdZEZXX0vVpESyWD47'));
 app.use('/api', require('./api'));
 app.use('*', (req, res) => res.sendFile('index.html', { root: www }));
 app.use((err, req, res, next) => res.status(err.status || 500).send(err));
