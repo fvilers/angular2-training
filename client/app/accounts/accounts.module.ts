@@ -5,8 +5,8 @@ import { MaterialModule } from '@angular/material';
 import { ComparisonModule } from 'angular-comparison';
 
 import { AccountsRoutingModule } from './accounts-routing.module';
-import { RegisterComponent } from './components';
-import { AccountService } from './services';
+import { LoginComponent, RegisterComponent } from './components';
+import { AccountService, CurrentAccountService } from './services';
 
 @NgModule({
   imports: [
@@ -17,10 +17,12 @@ import { AccountService } from './services';
     AccountsRoutingModule
   ],
   declarations: [
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent
   ],
   providers: [
-    AccountService
+    AccountService,
+    CurrentAccountService
   ]
 })
 export class AccountsModule { }

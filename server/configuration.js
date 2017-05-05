@@ -7,6 +7,12 @@ const configuration = {
   json: {
     limit: process.env.JSON_LIMIT || "2mb"
   },
+  jwt: {
+    options: {
+      expiresIn: 60 * 60 * 24
+    },
+    secret: process.env.JWT_SECRET || "This is a secret !"
+  },
   mongo: {
     uri: process.env.MONGO_URI || "mongodb://localhost/angular-training",
     options: {

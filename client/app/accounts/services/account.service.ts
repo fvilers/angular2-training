@@ -18,4 +18,13 @@ export class AccountService {
       .toPromise()
       .then(response => {});
   }
+
+  createToken(email: string, password: string): Promise<string> {
+    const data = { email, password };
+
+    return this.http
+      .post(`${this.url}/token`, data)
+      .toPromise()
+      .then(response => response.json().access_token);
+  }
 }

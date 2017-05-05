@@ -4,7 +4,11 @@
   <a md-button [routerLink]="['/about']">About</a>
   <button md-button (click)="toggleTheme()">Toggle Theme</button>
   <span class="filler"></span>
-  <a md-raised-button [routerLink]="['accounts', 'register']">Register</a>
+  <button md-button *ngIf="token; else anonymous" (click)="logOut()">Log out</button>
+  <ng-template #anonymous>
+    <a md-button [routerLink]="['accounts', 'login']">Log in</a>
+    <a md-raised-button [routerLink]="['accounts', 'register']">Register</a>
+  </ng-template>
 </md-toolbar>
 
 <main>
