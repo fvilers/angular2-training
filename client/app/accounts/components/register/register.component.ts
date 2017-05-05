@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Account } from '../../models';
-import { AccountService } from '../../services';
+import { AccountService, CurrentAccountService } from '../../services';
 
 @Component({
   selector: 'app-register',
@@ -13,13 +13,20 @@ export class RegisterComponent {
   public account = new Account();
   public errorMessage: string;
 
-  constructor(private service: AccountService, private router: Router) {
+  constructor(
+    private service: AccountService,
+    private currentAccount: CurrentAccountService,
+    private router: Router) {
   }
 
   register() {
     this.service
       .register(this.account.email, this.account.password)
-      .then(() => this.router.navigate(['/']))
+      .then(() => this.service.createToken(this.account.email, this.account.password))
+      .then(token => {
+        this.currentAccount.set(token);
+        this.router.navigate(['/']);
+      })
       .catch(error => this.errorMessage = getErrorMessage(error.status))
     ;
 
