@@ -36,7 +36,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    window['prerenderReady'] = true;
+    // window['prerenderReady'] = true;
   }
 
   toggleTheme() {
