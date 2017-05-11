@@ -1,4 +1,4 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 import { MdSnackBar, MdSnackBarConfig } from '@angular/material';
 
@@ -10,7 +10,8 @@ import { CurrentAccountService } from './accounts/services';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+
   public title = 'The Nexus';
   public token: string;
 
@@ -26,12 +27,16 @@ export class AppComponent {
     errorSubject
       .getObservable()
       .subscribe(x => snackBar.open('😿 We are sorry, but an error has occured.', null, snackBarDefaultConfig))
-    ;
+      ;
 
     currentAccount
       .get()
       .subscribe(token => this.token = token)
-    ;
+      ;
+  }
+
+  ngOnInit(): void {
+    window['prerenderReady'] = true;
   }
 
   toggleTheme() {
