@@ -26,7 +26,8 @@ const schema = new mongoose.Schema({
   passwordHash: {
     type: String,
     required: true
-  }
+  },
+  favorites: [mongoose.Schema.Types.ObjectId]
 }, options);
 
 module.exports = schema;
