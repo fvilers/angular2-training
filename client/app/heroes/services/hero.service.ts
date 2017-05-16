@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { Headers, Http, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
@@ -16,9 +16,12 @@ export class HeroService {
 
   searchHeroes(universe: HeroUniverse, role: HeroRole, terms: string): Observable<Hero[]> {
     const query = this.querystring({ universe, role, terms });
+    const jwt = localStorage.getItem('jwt');
+    const headers = new Headers(jwt ? { Authorization: 'Bearer ' + jwt} : {});
+    const options = new RequestOptions({ headers });
 
     return this.http
-      .get(`${this.url}?${query}`)
+      .get(`${this.url}?${query}`, options)
       .map(response => response.json() as Hero[])
       .catch(this.handleError);
   }
