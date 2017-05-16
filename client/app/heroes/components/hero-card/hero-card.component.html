@@ -13,7 +13,7 @@
   </md-card-content>
 
   <md-card-actions align="end">
-    <button md-icon-button mdTooltip="Add to favorites" mdTooltipPosition="above" (click)="addToFavorites()">
+    <button md-icon-button [color]="hero.favorite ? 'accent' : ''" mdTooltip="Add to favorites" mdTooltipPosition="above" (click)="addToFavorites()">
       <md-icon>favorite</md-icon>
     </button>
     <button md-icon-button mdTooltip="Learn more" mdTooltipPosition="above" (click)="goToDetail()">
