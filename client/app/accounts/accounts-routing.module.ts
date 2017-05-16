@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { LoginComponent, RegisterComponent } from './components';
+import { AccountGuardService } from './services';
+import { LoginComponent, ProfileComponent, RegisterComponent } from './components';
 
 const routes: Routes = [
   {
@@ -11,6 +12,11 @@ const routes: Routes = [
   {
     path: 'accounts/login',
     component: LoginComponent
+  },
+  {
+    path: 'accounts/profile',
+    canActivate: [AccountGuardService],
+    component: ProfileComponent
   }
 ];
 

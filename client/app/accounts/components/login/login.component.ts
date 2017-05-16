@@ -24,7 +24,7 @@ export class LoginComponent {
       .createToken(this.account.email, this.account.password)
       .then(token => {
         this.currentAccount.set(token);
-        this.router.navigate(['/']);
+        this.router.navigate([this.currentAccount.redirectUrl]);
       })
       .catch(error => this.errorMessage = getErrorMessage(error.status))
     ;

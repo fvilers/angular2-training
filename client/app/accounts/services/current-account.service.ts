@@ -1,21 +1,27 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { Subject } from 'rxjs/Subject';
+import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 
 @Injectable()
 export class CurrentAccountService {
-  private account = new Subject<string>();
+  public redirectUrl = '/';
+  private account = new BehaviorSubject<string>(localStorage.getItem('jwt'));
 
   set(token: string) {
-    localStorage.setItem('jwt', token);
+    if (token) {
+      localStorage.setItem('jwt', token);
+    } else {
+      localStorage.removeItem('jwt');
+    }
     this.account.next(token);
   }
 
   get(): Observable<string> {
-    return this.account
-      .asObservable()
-      .startWith(localStorage.getItem('jwt'))
-    ;
+    return this.account.asObservable();
+  }
+
+  getSnapShot(): string {
+    return this.account.getValue();
   }
 
   clear() {
