@@ -19,6 +19,7 @@ export class CurrentAccountService {
   }
 
   clear() {
-    this.set(null);
+    localStorage.removeItem('jwt');
+    this.account.next(null);
   }
 }
