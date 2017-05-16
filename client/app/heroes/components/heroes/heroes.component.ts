@@ -7,6 +7,7 @@ import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 
 import { HeroService } from '../../services';
+import { CurrentAccountService } from '../../../accounts/services';
 import { WindowService } from '../../../core';
 import { Hero, HeroFilter } from '../../models';
 
@@ -21,7 +22,14 @@ export class HeroesComponent implements OnInit, AfterViewInit {
   canMoveToTop = false;
   private filter = new Subject<HeroFilter>();
 
-  constructor(private heroService: HeroService, private windowService: WindowService) {
+  constructor(
+    private heroService: HeroService,
+    private windowService: WindowService,
+    currentAccount: CurrentAccountService) {
+      currentAccount
+      .get()
+      .subscribe(() => this.filterHeroes(new HeroFilter()))
+    ;
   }
 
   @HostListener('window:scroll', ['$event'])
