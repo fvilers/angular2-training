@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { Subject } from 'rxjs/Subject';
 
 @Injectable()
 export class CurrentAccountService {
+
   public redirectUrl = '/';
-  private account = new BehaviorSubject<string>(localStorage.getItem('jwt'));
+  private account = new Subject<string>();
 
   set(token: string) {
     if (token) {
@@ -17,11 +18,9 @@ export class CurrentAccountService {
   }
 
   get(): Observable<string> {
-    return this.account.asObservable();
-  }
-
-  getSnapShot(): string {
-    return this.account.getValue();
+    return this.account
+      .asObservable()
+      .startWith(localStorage.getItem('jwt'));
   }
 
   clear() {
