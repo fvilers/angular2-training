@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod",
+    "heroku-postbuild": "ng build --aot --target=production",
     "seed": "node ./tools/import"
   },
   "private": true,
