@@ -1,10 +1,16 @@
 <md-toolbar color="primary">
   <h2 class="headline">{{title}}</h2>
-  <a md-button [routerLink]="['/heroes']">Heroes</a>
-  <a md-button [routerLink]="['/about']">About</a>
+
+  <a md-button [routerLink]="['heroes']">Heroes</a>
+  <a md-button [routerLink]="['about']">About</a>
   <button md-button (click)="toggleTheme()">Toggle Theme</button>
   <span class="filler"></span>
-  <button md-button *ngIf="token; else anonymous" (click)="logOut()">Log out</button>
+
+  <ng-container *ngIf="token; else anonymous">
+    <button md-button [routerLink]="['accounts', 'profile']">My profile</button>
+    <button md-button (click)="logOut()">Log out</button>
+  </ng-container>
+  
   <ng-template #anonymous>
     <a md-button [routerLink]="['accounts', 'login']">Log in</a>
     <a md-raised-button [routerLink]="['accounts', 'register']">Register</a>
