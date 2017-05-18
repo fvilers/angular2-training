@@ -19,6 +19,9 @@ export class ActivatedRouteStub {
 
   // ActivatedRoute.snapshot.params
   get snapshot() {
-    return { params: this.testParams };
+    return {
+      data: {},
+      params: this.testParams
+    };
   }
 }
