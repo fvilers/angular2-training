@@ -22,11 +22,8 @@ export class AccountGuardService implements CanActivate {
 
   checkLogin(url: string): Observable<boolean> {
     return this.currentAccountService.get().map((account: string) => {
-      if (! account) {
-        // Store the attempted URL for redirecting after login
-        this.currentAccountService.redirectUrl = url;
-
-        this.router.navigate(['accounts', 'login']);
+      if (!account) {
+        this.router.navigate(['accounts', 'login'], { queryParams: { redirectUrl: url } });
         return false;
       }
       return true;
