@@ -14,6 +14,10 @@
     "seed": "node ./tools/import"
   },
   "private": true,
+  "engines": {
+    "node": "6.10.3",
+    "npm": "3.10.10"
+  },
   "dependencies": {
     "@angular/animations": "4.0.1",
     "@angular/cli": "1.0.0",
