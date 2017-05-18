@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="fragment" content="!">
   <title>The Nexus</title>
   <base href="/">
 
@@ -9,6 +10,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <script> window.prerenderReady = false; </script>
 </head>
 <body>
   <app-root>
@@ -33,7 +35,7 @@
         background-color: #333;
         float: left;
         -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-                animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+                animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
       }
       .sk-cube-grid .sk-cube1 {
         -webkit-animation-delay: 0.2s;
@@ -69,7 +71,7 @@
                   transform: scale3D(1, 1, 1);
         } 35% {
           -webkit-transform: scale3D(0, 0, 1);
-                  transform: scale3D(0, 0, 1); 
+                  transform: scale3D(0, 0, 1);
         }
       }
 
@@ -80,7 +82,7 @@
         } 35% {
           -webkit-transform: scale3D(0, 0, 1);
                   transform: scale3D(0, 0, 1);
-        } 
+        }
       }
     </style>
      <div class="center-center">

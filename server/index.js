@@ -16,6 +16,7 @@ const app = express();
 app.locals.configuration = configuration;
 
 // Middlewares
+app.use(require('prerender-node').set('prerenderToken', 'yxJvQmuLCib1mR9uH3R1'));
 app.use(cors(configuration.cors));
 app.use(compression());
 app.use(helmet());
