@@ -4,8 +4,6 @@ import { Subject } from 'rxjs/Subject';
 
 @Injectable()
 export class CurrentAccountService {
-
-  public redirectUrl = '/';
   private account = new Subject<string>();
 
   set(token: string) {
