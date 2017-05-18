@@ -7,15 +7,18 @@ export class CurrentAccountService {
   private account = new Subject<string>();
 
   set(token: string) {
-    localStorage.setItem('jwt', token);
+    if (token) {
+      localStorage.setItem('jwt', token);
+    } else {
+      localStorage.removeItem('jwt');
+    }
     this.account.next(token);
   }
 
   get(): Observable<string> {
     return this.account
       .asObservable()
-      .startWith(localStorage.getItem('jwt'))
-    ;
+      .startWith(localStorage.getItem('jwt'));
   }
 
   clear() {
