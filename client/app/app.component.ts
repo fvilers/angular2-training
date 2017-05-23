@@ -1,4 +1,5 @@
 import { Component, Inject } from '@angular/core';
+import { Router } from '@angular/router';
 import { DOCUMENT } from '@angular/platform-browser';
 import { MdSnackBar, MdSnackBarConfig } from '@angular/material';
 
@@ -18,7 +19,8 @@ export class AppComponent {
     errorSubject: ErrorSubject,
     snackBar: MdSnackBar,
     @Inject(DOCUMENT) private document,
-    private currentAccount: CurrentAccountService
+    private currentAccount: CurrentAccountService,
+    private router: Router
   ) {
     const snackBarDefaultConfig = new MdSnackBarConfig();
     snackBarDefaultConfig.duration = 1500;
@@ -40,5 +42,6 @@ export class AppComponent {
 
   logOut() {
     this.currentAccount.clear();
+    this.router.navigateByUrl('/');
   }
 }

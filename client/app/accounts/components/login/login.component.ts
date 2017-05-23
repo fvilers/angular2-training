@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 import { Account } from '../../models';
 import { AccountService, CurrentAccountService } from '../../services';
@@ -16,6 +16,7 @@ export class LoginComponent {
   constructor(
     private service: AccountService,
     private currentAccount: CurrentAccountService,
+    private route: ActivatedRoute,
     private router: Router) {
   }
 
@@ -24,7 +25,7 @@ export class LoginComponent {
       .createToken(this.account.email, this.account.password)
       .then(token => {
         this.currentAccount.set(token);
-        this.router.navigate(['/']);
+        this.route.queryParams.subscribe(params => this.router.navigateByUrl(params['redirectUrl'] || '/'));
       })
       .catch(error => this.errorMessage = getErrorMessage(error.status))
     ;

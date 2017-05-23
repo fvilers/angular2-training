@@ -22,7 +22,7 @@ describe('HeroCardComponent', () => {
         HeroUniversePipe
       ],
       imports: [MaterialModule],
-      providers: [{provide: Router, useValue: RouterStub } ]
+      providers: [{ provide: Router, useValue: RouterStub } ]
     })
       .compileComponents();
   }));
