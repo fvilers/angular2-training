@@ -10,6 +10,7 @@ import { Observable } from 'rxjs/Observable';
 import { Hero } from '../../models';
 import { HeroService } from '../../services';
 import { WindowService } from '../../../core';
+import { CurrentAccountService } from '../../../accounts/services';
 import { HeroRolePipe, HeroUniversePipe } from '../../pipes';
 import { HeroFilterComponent } from '../hero-filter';
 import { HeroCardComponent } from '../hero-card';
@@ -19,10 +20,15 @@ describe('HeroesComponent', () => {
   let component: HeroesComponent;
   let fixture: ComponentFixture<HeroesComponent>;
 
-  // stub Hero Service for test purposes
+  // Stubs
   const heroServiceStub = {
     searchHeroes: function (p1: any, p2: any, p3: any) {
       return new Observable<Hero[]>(); }
+  };
+  const currentAccountServiceStub = {
+    set: () => {},
+    get: () => Observable.of(''),
+    clear: () => {},
   };
 
   beforeEach(async(() => {
@@ -41,7 +47,8 @@ describe('HeroesComponent', () => {
       ],
       providers: [
         WindowService,
-        { provide: HeroService, useValue: heroServiceStub }
+        { provide: HeroService, useValue: heroServiceStub },
+        { provide: CurrentAccountService, useValue: currentAccountServiceStub }   
       ]
     })
       .compileComponents();
