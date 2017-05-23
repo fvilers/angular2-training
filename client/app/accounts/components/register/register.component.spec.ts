@@ -27,7 +27,7 @@ describe('RegisterComponent', () => {
       providers: [
         AccountService,
         CurrentAccountService,
-        {provide: Router, useValue: RouterStub }
+        { provide: Router, useValue: RouterStub }
       ]
     })
     .compileComponents();

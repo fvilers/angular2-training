@@ -19,14 +19,13 @@ describe('HeroesComponent', () => {
   let component: HeroesComponent;
   let fixture: ComponentFixture<HeroesComponent>;
 
+  // stub Hero Service for test purposes
+  const heroServiceStub = {
+    searchHeroes: function (p1: any, p2: any, p3: any) {
+      return new Observable<Hero[]>(); }
+  };
+
   beforeEach(async(() => {
-
-    // stub Hero Service for test purposes
-    const heroServiceStub = {
-      searchHeroes: function (p1: any, p2: any, p3: any) {
-        return new Observable<Hero[]>(); }
-    };
-
     TestBed.configureTestingModule({
       declarations: [
         HeroCardComponent,
