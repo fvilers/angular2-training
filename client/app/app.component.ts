@@ -12,7 +12,7 @@ import { CurrentAccountService } from './accounts/services';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public title = 'The Nexus 2';
+  public title = 'The Nexus';
   public token: string;
 
   constructor(
